@@ -1,249 +1,249 @@
 id,level,name,school,god
-1,0,Acid Splash,Conjuration,Euris
-2,0,Blade Ward,Abjuration,Agon
-3,0,Chill Touch,Necromancy,Silva & Morior
-4,0,Control Flames,Transmutation,Diatas
-5,0,Create Bonfire,Conjuration,Diatas
-6,0,Dancing Lights,Evocation,Diatas
-7,0,Druidcraft,Transmutation,Silva & Morior
-8,0,Eldritch Blast,Evocation,Agon
-9,0,Friends,Enchantment,Tyreis
-10,0,Fire Bolt,Evocation,Diatas
-11,0,Frostbite,Evocation,Silva & Morior
-12,0,Guidance,Divination,Tyreis
-13,0,Gust,Transmutation,Tyreis
-14,0,Infestation,Conjuration,Silva & Morior
-15,0,Light,Evocation,Diatas
-16,0,Mage Hand,Conjuration,Euris
-17,0,Magic Stone,Transmutation,Euris
-18,0,Mending,Transmutation,Euris
-19,0,Message,Transmutation,Tyreis
-20,0,Minor Illusion,Illusion,Diatas
-21,0,Mold Earth,Transmutation,Euris
-22,0,Poison Spray,Conjuration,Agon
-23,0,Prestidigitation,Transmutation,All
-24,0,Produce Flame,Conjuration,Diatas
-25,0,Ray of Frost,Evocation,Silva & Morior
-26,0,Resistance,Abjuration,Agon
-27,0,Sacred Flame,Evocation,Diatas
-28,0,Shape Water,Transmutation,Tyreis
-29,0,Shillelagh,Transmutation,Silva & Morior
-30,0,Shocking Grasp,Evocation,Euris
-31,0,Spare the Dying,Necromancy,Silva & Morior
-32,0,Thaumaturgy,Transmutation,All
-33,0,Thorn Whip,Transmutation,Silva & Morior
-34,0,Thunderclap,Evocation,Tyreis
-35,0,Toll the Dead,Necromancy,Silva & Morior
-36,0,True Strike,Divination,Agon
-37,0,Vicious Mockery,Enchantment,Agon
-38,0,Word of Radiance,Evocation,Diatas
-39,0,Booming Blade ,Evocation,Agon
-40,0,Green-Flame Blade,Evocation,Agon
-41,0,Lightning Lure,Evocation,Tyreis
-42,0,Sword Burst,Conjuration,Agon
-43,1,Absorb Elements,Abjuration,Agon
-44,1,Alarm,Abjuration,Tyreis
-45,1,Animal Friendship,Enchantment,Silva & Morior
-46,1,Armor of Agathys,Abjuration,Agon
-47,1,Arms of Hadar,Conjuration,Agon
-48,1,Bane,Enchantment,Agon
-49,1,Banishing Smite,Abjuration,Agon
-50,1,Beast Bond,Divination,Silva & Morior
-51,1,Bless,Enchantment,All
-52,1,Burning Hands,Evocation,Diatas
-53,1,Catapult,Transmutation,Euris
-54,1,Cause Fear,Necromancy,Agon
-55,1,Ceremony,Abjuration,All
-56,1,Chaos Bolt,Evocation,Agon
-57,1,Charm Person,Enchantment,Tyreis
-58,1,Chromatic Orb,Evocation,Diatas
-59,1,Color Spray,Illusion,Diatas
-60,1,Command,Enchantment,Agon
-61,1,Compelled Duel,Enchantment,Agon
-62,1,Comprehend Languages,Divination,Tyreis
-63,1,Create or Destroy Water,Transmutation,Tyreis
-64,1,Cure Wounds,Evocation,Silva & Morior
-65,1,Detect Evil and Good,Divination,Diatas
-66,1,Detect Magic,Divination,Diatas
-67,1,Detect Poison and Disease,Divination,Silva & Morior
-68,1,Disguise Self,Illusion,Tyreis
-69,1,Dissonant Whispers,Enchantment,Agon
-70,1,Divine Favor,Evocation,Agon
-71,1,Earth Tremor,Evocation,Euris
-72,1,Ensnaring Strike,Conjuration,Silva & Morior
-73,1,Entangle,Conjuration,Silva & Morior
-74,1,Expeditious Retreat,Transmutation,Tyreis
-75,1,Faerie Fire,Evocation,Diatas
-76,1,False Life,Necromancy,Silva & Morior
-77,1,Feather Fall,Transmutation,Tyreis
-78,1,Find Familiar,Conjuration,All
-79,1,Fog Cloud,Conjuration,Tyreis
-80,1,Goodberry,Conjuration,Silva & Morior
-81,1,Grease,Conjuration,Euris
-82,1,Guiding Bolt,Evocation,Tyreis
-83,1,Hail of Thorns,Conjuration,Silva & Morior
-84,1,Healing Word,Evocation,Silva & Morior
-85,1,Hellish Rebuke,Evocation,Agon
-86,1,Heroism,Enchantment,Diatas
-87,1,Hex,Enchantment,Agon
-88,1,Hunter's Mark,Divination,Silva & Morior
-89,1,Ice Knife,Conjuration,Silva & Morior
-90,1,Identify,Divination,Diatas
-91,1,Illusory Script,Illusion,Euris
-92,1,Inflict Wounds,Necromancy,Silva & Morior
-93,1,Jump,Transmutation,Tyreis
-94,1,Longstrider,Transmutation,Tyreis
-95,1,Mage Armor,Abjuration,Euris
-96,1,Magic Missile,Evocation,Euris
-97,1,Protection from Evil and Good,Abjuration,Silva & Morior
-98,1,Purify Food and Drink,Abjuration,Diatas
-99,1,Ray of Sickness,Necromancy,Agon
-100,1,Sanctuary,Abjuration,Tyreis
-101,1,Searing Smite,Evocation,Diatas
-102,1,Shield,Abjuration,Euris
-103,1,Shield of Faith,Abjuration,Euris
-104,1,Silent Image,Illusion,Agon
-105,1,Sleep,Enchantment,Tyreis
-106,1,Snare,Abjuration,Silva & Morior
-107,1,Speak with Animals,Divination,Silva & Morior
-108,1,Tasha's Hideous Laughter,Enchantment,Agon
-109,1,Tenser's Floating Disk,Conjuration,Euris
-110,1,Thunderous Smite,Evocation,Tyreis
-111,1,Thunderwave,Evocation,Tyreis
-112,1,Unseen Servant,Conjuration,Euris
-113,1,Witch Bolt,Evocation,Agon
-114,1,Wrathful Smite,Evocation,Agon
-115,1,Zephyr Strike,Transmutation,Tyreis
-116,2,Aganazzar's Scorcher,Evocation,Diatas
-117,2,Aid,Abjuration,Tyreis
-118,2,Alter Self,Transmutation,Agon
-119,2,Animal Messenger,Enchantment,Silva & Morior
-120,2,Arcane Lock,Abjuration,Euris
-121,2,Augury,Divination,Diatas
-122,2,Barkskin,Transmutation,Silva & Morior
-123,2,Beast Sense,Divination,Silva & Morior
-124,2,Blindness/Deafness,Necromancy,Diatas
-125,2,Blur,Illusion,Tyreis
-126,2,Branding Smite,Evocation,Diatas
-127,2,Calm Emotions,Enchantment,Agon
-128,2,Cloud of Daggers,Conjuration,Agon
-129,2,Continual Flame,Evocation,Diatas
-130,2,Cordon of Arrows,Transmutation,Euris
-131,2,Crown of Madness,Enchantment,Agon
-132,2,Darkness,Evocation,Silva & Morior
-133,2,Darkvision,Transmutation,Diatas
-134,2,Detect Thoughts,Divination,Diatas
-135,2,Dragon's Breath,Transmutation,Euris
-136,2,Dust Devil,Conjuration,Tyreis
-137,2,Earthbind,Transmutation,Euris
-138,2,Enhance Ability,Transmutation,Agon
-139,2,Enlarge/Reduce,Transmutation,Silva & Morior
-140,2,Enthrall,Enchantment,Agon
-141,2,Find Steed,Conjuration,Tyreis
-142,2,Find Traps,Divination,Euris
-143,2,Flame Blade,Evocation,Diatas
-144,2,Flaming Sphere,Conjuration,Diatas
-145,2,Gentle Repose,Necromancy,Silva & Morior
-146,2,Gust of Wind,Evocation,Tyreis
-147,2,Healing Spirit,Conjuration,Silva & Morior
-148,2,Heat Metal,Transmutation,Euris
-149,2,Hold Person,Enchantment,Euris
-150,2,Invisibility,Illusion,Diatas
-151,2,Knock,Transmutation,Euris
-152,2,Lesser Restoration,Abjuration,Silva & Morior
-153,2,Levitate,Transmutation,Tyreis
-154,2,Locate Animals or Plants,Divination,Silva & Morior
-155,2,Locate Object,Divination,Diatas
-156,2,Magic Mouth,Illusion,Euris
-157,2,Magic Weapon,Transmutation,Euris
-158,2,Maximilian's Earthen Grasp,Transmutation,Euris
-159,2,Melf's Acid Arrow,Evocation,Agon
-160,2,Mind Spike,Divination,Agon
-161,2,Mirror Image,Illusion,Diatas
-162,2,Misty Step,Conjuration,Tyreis
-163,2,Moonbeam,Evocation,Diatas
-164,2,Nystul's Magic Aura,Illusion,Euris
-165,2,Pass Without Trace,Abjuration,Silva & Morior
-166,2,Phantasmal Force,Illusion,Agon
-167,2,Prayer of Healing,Evocation,Silva & Morior
-168,2,Protection from Poison,Abjuration,Silva & Morior
-169,2,Pyrotechnics,Transmutation,Diatas
-170,2,Ray of Enfeeblement,Necromancy,Agon
-171,2,Rope Trick,Transmutation,Euris
-172,2,Scorching Ray,Evocation,Diatas
-173,2,See Invisibility,Divination,Diatas
-174,2,Shadow Blade,Illusion,Agon
-175,2,Shatter,Evocation,Euris
-176,2,Silence,Illusion,Silva & Morior
-177,2,Skywrite,Transmutation,Tyreis
-178,2,Snilloc's Snowball Swarm,Evocation,Tyreis
-179,2,Spider Climb,Transmutation,Tyreis
-180,2,Spike Growth,Transmutation,Silva & Morior
-181,2,Spiritual Weapon,Evocation,Euris
-182,2,Suggestion,Enchantment,Agon
-183,2,Warding Bond,Abjuration,Euris
-184,2,Warding Wind,Evocation,Tyreis
-185,2,Web,Conjuration,Silva & Morior
-186,2,Zone of Truth,Enchantment,Diatas
-187,3,Animate Dead,Necromancy,Silva & Morior
-188,3,Auta of Vitality,Abjuration,Silva & Morior
-189,3,Beacon of Hope,Abjuration,Agon
-190,3,Bestow Curse,Necromancy,Agon
-191,3,Blinding Smite,Evocation,Diatas
-192,3,Blink,Transmutation,Tyreis
-193,3,Call Lightning,Conjuration,Tyreis
-194,3,Catnap,Enchantment,Silva & Morior
-195,3,Clairvoyance,Divination,Diatas
-196,3,Conjure Animals,Conjuration,Silva & Morior
-197,3,Conjure Barrage,Conjuration,Euris
-198,3,Counterspell,Abjuration,Agon
-199,3,Create Food and Water,Conjuration,Silva & Morior
-200,3,Crusader's Mantle,Evocation,Diatas
-201,3,Daylight,Evocation,Diatas
-202,3,Dispel Magic,Abjuration,Euris
-203,3,Elemental Weapon,Transmutation,Euris
-204,3,Enemies Abound,Enchantment,Agon
-205,3,Erupting Earth,Transmutation,Euris
-206,3,Fear,Illusion,Agon
-207,3,Feign Death,Necromancy,Silva & Morior
-208,3,Fireball,Evocation,Diatas
-209,3,Flame Arrows,Transmutation,Euris
-210,3,Fly,Transmutation,Tyreis
-211,3,Gaseous Form,Transmutation,Tyreis
-212,3,Glyph of Warding,Abjuration,Euris
-213,3,Haste,Transmutation,Tyreis
-214,3,Hunger of Hadar,Conjuration,Silva & Morior
-215,3,Hypnotic Pattern,Illusion,Diatas
-216,3,Leomund's Tiny Hut,Evocation,Euris
-217,3,Life Transference,Necromancy,Silva & Morior
-218,3,Lightning Arrow,Transmutation,Tyreis
-219,3,Lightning Bolt,Evocation,Tyreis
-220,3,Magic Circle,Abjuration,Euris
-221,3,Major Image,Illusion,Agon
-222,3,Mass Healing Word,Evocation,Silva & Morior
-223,3,Meld into Stone,Transmutation,Euris
-224,3,Melf's Minute Meteors,Evocation,Diatas
-225,3,Nondetection,Abjuration,Agon
-226,3,Phantom Steed,Illusion,Tyreis
-227,3,Plant Growth,Transmutation,Silva & Morior
-228,3,Protection from Energy,Abjuration,Euris
-229,3,Remove Curse,Abjuration,Diatas
-230,3,Revivify,Necromancy,Silva & Morior
-231,3,Sending,Evocation,Tyreis
-232,3,Sleet Storm,Conjuration,Tyreis
-233,3,Slow,Transmutation,Tyreis
-234,3,Speak with Dead,Necromancy,Silva & Morior
-235,3,Speak with Plants,Transmutation,Silva & Morior
-236,3,Spirit Guardians,Conjuration,Silva & Morior
-237,3,Stinking Cloud,Conjuration,Tyreis
-238,3,Summon Lesser Demons,Conjuration,Agon
-239,3,Thunder Step,Conjuration,Tyreis
-240,3,Tidal Wave,Conjuration,Tyreis
-241,3,Tiny Servant,Conjuration,Euris
-242,3,Tongues,Divination,Tyreis
-243,3,Vampiric Touch,Necromancy,Agon
-244,3,Wall of Sand,Evocation,Euris
-245,3,Wall of Water,Evocation,Tyreis
-246,3,Water Breathing,Transmutation,Tyreis
-247,3,Water Walk,Transmutation,Tyreis
-248,3,Wind Wall,Evocation,Tyreis
+0,0,Acid Splash,Conjuration,Euris
+1,0,Blade Ward,Abjuration,Agon
+2,0,Chill Touch,Necromancy,Silva & Morior
+3,0,Control Flames,Transmutation,Diatas
+4,0,Create Bonfire,Conjuration,Diatas
+5,0,Dancing Lights,Evocation,Diatas
+6,0,Druidcraft,Transmutation,Silva & Morior
+7,0,Eldritch Blast,Evocation,Agon
+8,0,Friends,Enchantment,Tyreis
+9,0,Fire Bolt,Evocation,Diatas
+10,0,Frostbite,Evocation,Silva & Morior
+11,0,Guidance,Divination,Tyreis
+12,0,Gust,Transmutation,Tyreis
+13,0,Infestation,Conjuration,Silva & Morior
+14,0,Light,Evocation,Diatas
+15,0,Mage Hand,Conjuration,Euris
+16,0,Magic Stone,Transmutation,Euris
+17,0,Mending,Transmutation,Euris
+18,0,Message,Transmutation,Tyreis
+19,0,Minor Illusion,Illusion,Diatas
+20,0,Mold Earth,Transmutation,Euris
+21,0,Poison Spray,Conjuration,Agon
+22,0,Prestidigitation,Transmutation,All
+23,0,Produce Flame,Conjuration,Diatas
+24,0,Ray of Frost,Evocation,Silva & Morior
+25,0,Resistance,Abjuration,Agon
+26,0,Sacred Flame,Evocation,Diatas
+27,0,Shape Water,Transmutation,Tyreis
+28,0,Shillelagh,Transmutation,Silva & Morior
+29,0,Shocking Grasp,Evocation,Euris
+30,0,Spare the Dying,Necromancy,Silva & Morior
+31,0,Thaumaturgy,Transmutation,All
+32,0,Thorn Whip,Transmutation,Silva & Morior
+33,0,Thunderclap,Evocation,Tyreis
+34,0,Toll the Dead,Necromancy,Silva & Morior
+35,0,True Strike,Divination,Agon
+36,0,Vicious Mockery,Enchantment,Agon
+37,0,Word of Radiance,Evocation,Diatas
+38,0,Booming Blade ,Evocation,Agon
+39,0,Green-Flame Blade,Evocation,Agon
+40,0,Lightning Lure,Evocation,Tyreis
+41,0,Sword Burst,Conjuration,Agon
+42,1,Absorb Elements,Abjuration,Agon
+43,1,Alarm,Abjuration,Tyreis
+44,1,Animal Friendship,Enchantment,Silva & Morior
+45,1,Armor of Agathys,Abjuration,Agon
+46,1,Arms of Hadar,Conjuration,Agon
+47,1,Bane,Enchantment,Agon
+48,1,Banishing Smite,Abjuration,Agon
+49,1,Beast Bond,Divination,Silva & Morior
+50,1,Bless,Enchantment,All
+51,1,Burning Hands,Evocation,Diatas
+52,1,Catapult,Transmutation,Euris
+53,1,Cause Fear,Necromancy,Agon
+54,1,Ceremony,Abjuration,All
+55,1,Chaos Bolt,Evocation,Agon
+56,1,Charm Person,Enchantment,Tyreis
+57,1,Chromatic Orb,Evocation,Diatas
+58,1,Color Spray,Illusion,Diatas
+59,1,Command,Enchantment,Agon
+60,1,Compelled Duel,Enchantment,Agon
+61,1,Comprehend Languages,Divination,Tyreis
+62,1,Create or Destroy Water,Transmutation,Tyreis
+63,1,Cure Wounds,Evocation,Silva & Morior
+64,1,Detect Evil and Good,Divination,Diatas
+65,1,Detect Magic,Divination,Diatas
+66,1,Detect Poison and Disease,Divination,Silva & Morior
+67,1,Disguise Self,Illusion,Tyreis
+68,1,Dissonant Whispers,Enchantment,Agon
+69,1,Divine Favor,Evocation,Agon
+70,1,Earth Tremor,Evocation,Euris
+71,1,Ensnaring Strike,Conjuration,Silva & Morior
+72,1,Entangle,Conjuration,Silva & Morior
+73,1,Expeditious Retreat,Transmutation,Tyreis
+74,1,Faerie Fire,Evocation,Diatas
+75,1,False Life,Necromancy,Silva & Morior
+76,1,Feather Fall,Transmutation,Tyreis
+77,1,Find Familiar,Conjuration,All
+78,1,Fog Cloud,Conjuration,Tyreis
+79,1,Goodberry,Conjuration,Silva & Morior
+80,1,Grease,Conjuration,Euris
+81,1,Guiding Bolt,Evocation,Tyreis
+82,1,Hail of Thorns,Conjuration,Silva & Morior
+83,1,Healing Word,Evocation,Silva & Morior
+84,1,Hellish Rebuke,Evocation,Agon
+85,1,Heroism,Enchantment,Diatas
+86,1,Hex,Enchantment,Agon
+87,1,Hunter's Mark,Divination,Silva & Morior
+88,1,Ice Knife,Conjuration,Silva & Morior
+89,1,Identify,Divination,Diatas
+90,1,Illusory Script,Illusion,Euris
+91,1,Inflict Wounds,Necromancy,Silva & Morior
+92,1,Jump,Transmutation,Tyreis
+93,1,Longstrider,Transmutation,Tyreis
+94,1,Mage Armor,Abjuration,Euris
+95,1,Magic Missile,Evocation,Euris
+96,1,Protection from Evil and Good,Abjuration,Silva & Morior
+97,1,Purify Food and Drink,Abjuration,Diatas
+98,1,Ray of Sickness,Necromancy,Agon
+99,1,Sanctuary,Abjuration,Tyreis
+100,1,Searing Smite,Evocation,Diatas
+101,1,Shield,Abjuration,Euris
+102,1,Shield of Faith,Abjuration,Euris
+103,1,Silent Image,Illusion,Agon
+104,1,Sleep,Enchantment,Tyreis
+105,1,Snare,Abjuration,Silva & Morior
+106,1,Speak with Animals,Divination,Silva & Morior
+107,1,Tasha's Hideous Laughter,Enchantment,Agon
+108,1,Tenser's Floating Disk,Conjuration,Euris
+109,1,Thunderous Smite,Evocation,Tyreis
+110,1,Thunderwave,Evocation,Tyreis
+111,1,Unseen Servant,Conjuration,Euris
+112,1,Witch Bolt,Evocation,Agon
+113,1,Wrathful Smite,Evocation,Agon
+114,1,Zephyr Strike,Transmutation,Tyreis
+115,2,Aganazzar's Scorcher,Evocation,Diatas
+116,2,Aid,Abjuration,Tyreis
+117,2,Alter Self,Transmutation,Agon
+118,2,Animal Messenger,Enchantment,Silva & Morior
+119,2,Arcane Lock,Abjuration,Euris
+120,2,Augury,Divination,Diatas
+121,2,Barkskin,Transmutation,Silva & Morior
+122,2,Beast Sense,Divination,Silva & Morior
+123,2,Blindness/Deafness,Necromancy,Diatas
+124,2,Blur,Illusion,Tyreis
+125,2,Branding Smite,Evocation,Diatas
+126,2,Calm Emotions,Enchantment,Agon
+127,2,Cloud of Daggers,Conjuration,Agon
+128,2,Continual Flame,Evocation,Diatas
+129,2,Cordon of Arrows,Transmutation,Euris
+130,2,Crown of Madness,Enchantment,Agon
+131,2,Darkness,Evocation,Silva & Morior
+132,2,Darkvision,Transmutation,Diatas
+133,2,Detect Thoughts,Divination,Diatas
+134,2,Dragon's Breath,Transmutation,Euris
+135,2,Dust Devil,Conjuration,Tyreis
+136,2,Earthbind,Transmutation,Euris
+137,2,Enhance Ability,Transmutation,Agon
+138,2,Enlarge/Reduce,Transmutation,Silva & Morior
+139,2,Enthrall,Enchantment,Agon
+140,2,Find Steed,Conjuration,Tyreis
+141,2,Find Traps,Divination,Euris
+142,2,Flame Blade,Evocation,Diatas
+143,2,Flaming Sphere,Conjuration,Diatas
+144,2,Gentle Repose,Necromancy,Silva & Morior
+145,2,Gust of Wind,Evocation,Tyreis
+146,2,Healing Spirit,Conjuration,Silva & Morior
+147,2,Heat Metal,Transmutation,Euris
+148,2,Hold Person,Enchantment,Euris
+149,2,Invisibility,Illusion,Diatas
+150,2,Knock,Transmutation,Euris
+151,2,Lesser Restoration,Abjuration,Silva & Morior
+152,2,Levitate,Transmutation,Tyreis
+153,2,Locate Animals or Plants,Divination,Silva & Morior
+154,2,Locate Object,Divination,Diatas
+155,2,Magic Mouth,Illusion,Euris
+156,2,Magic Weapon,Transmutation,Euris
+157,2,Maximilian's Earthen Grasp,Transmutation,Euris
+158,2,Melf's Acid Arrow,Evocation,Agon
+159,2,Mind Spike,Divination,Agon
+160,2,Mirror Image,Illusion,Diatas
+161,2,Misty Step,Conjuration,Tyreis
+162,2,Moonbeam,Evocation,Diatas
+163,2,Nystul's Magic Aura,Illusion,Euris
+164,2,Pass Without Trace,Abjuration,Silva & Morior
+165,2,Phantasmal Force,Illusion,Agon
+166,2,Prayer of Healing,Evocation,Silva & Morior
+167,2,Protection from Poison,Abjuration,Silva & Morior
+168,2,Pyrotechnics,Transmutation,Diatas
+169,2,Ray of Enfeeblement,Necromancy,Agon
+170,2,Rope Trick,Transmutation,Euris
+171,2,Scorching Ray,Evocation,Diatas
+172,2,See Invisibility,Divination,Diatas
+173,2,Shadow Blade,Illusion,Agon
+174,2,Shatter,Evocation,Euris
+175,2,Silence,Illusion,Silva & Morior
+176,2,Skywrite,Transmutation,Tyreis
+177,2,Snilloc's Snowball Swarm,Evocation,Tyreis
+178,2,Spider Climb,Transmutation,Tyreis
+179,2,Spike Growth,Transmutation,Silva & Morior
+180,2,Spiritual Weapon,Evocation,Euris
+181,2,Suggestion,Enchantment,Agon
+182,2,Warding Bond,Abjuration,Euris
+183,2,Warding Wind,Evocation,Tyreis
+184,2,Web,Conjuration,Silva & Morior
+185,2,Zone of Truth,Enchantment,Diatas
+186,3,Animate Dead,Necromancy,Silva & Morior
+187,3,Auta of Vitality,Abjuration,Silva & Morior
+188,3,Beacon of Hope,Abjuration,Agon
+189,3,Bestow Curse,Necromancy,Agon
+190,3,Blinding Smite,Evocation,Diatas
+191,3,Blink,Transmutation,Tyreis
+192,3,Call Lightning,Conjuration,Tyreis
+193,3,Catnap,Enchantment,Silva & Morior
+194,3,Clairvoyance,Divination,Diatas
+195,3,Conjure Animals,Conjuration,Silva & Morior
+196,3,Conjure Barrage,Conjuration,Euris
+197,3,Counterspell,Abjuration,Agon
+198,3,Create Food and Water,Conjuration,Silva & Morior
+199,3,Crusader's Mantle,Evocation,Diatas
+200,3,Daylight,Evocation,Diatas
+201,3,Dispel Magic,Abjuration,Euris
+202,3,Elemental Weapon,Transmutation,Euris
+203,3,Enemies Abound,Enchantment,Agon
+204,3,Erupting Earth,Transmutation,Euris
+205,3,Fear,Illusion,Agon
+206,3,Feign Death,Necromancy,Silva & Morior
+207,3,Fireball,Evocation,Diatas
+208,3,Flame Arrows,Transmutation,Euris
+209,3,Fly,Transmutation,Tyreis
+210,3,Gaseous Form,Transmutation,Tyreis
+211,3,Glyph of Warding,Abjuration,Euris
+212,3,Haste,Transmutation,Tyreis
+213,3,Hunger of Hadar,Conjuration,Silva & Morior
+214,3,Hypnotic Pattern,Illusion,Diatas
+215,3,Leomund's Tiny Hut,Evocation,Euris
+216,3,Life Transference,Necromancy,Silva & Morior
+217,3,Lightning Arrow,Transmutation,Tyreis
+218,3,Lightning Bolt,Evocation,Tyreis
+219,3,Magic Circle,Abjuration,Euris
+220,3,Major Image,Illusion,Agon
+221,3,Mass Healing Word,Evocation,Silva & Morior
+222,3,Meld into Stone,Transmutation,Euris
+223,3,Melf's Minute Meteors,Evocation,Diatas
+224,3,Nondetection,Abjuration,Agon
+225,3,Phantom Steed,Illusion,Tyreis
+226,3,Plant Growth,Transmutation,Silva & Morior
+227,3,Protection from Energy,Abjuration,Euris
+228,3,Remove Curse,Abjuration,Diatas
+229,3,Revivify,Necromancy,Silva & Morior
+230,3,Sending,Evocation,Tyreis
+231,3,Sleet Storm,Conjuration,Tyreis
+232,3,Slow,Transmutation,Tyreis
+233,3,Speak with Dead,Necromancy,Silva & Morior
+234,3,Speak with Plants,Transmutation,Silva & Morior
+235,3,Spirit Guardians,Conjuration,Silva & Morior
+236,3,Stinking Cloud,Conjuration,Tyreis
+237,3,Summon Lesser Demons,Conjuration,Agon
+238,3,Thunder Step,Conjuration,Tyreis
+239,3,Tidal Wave,Conjuration,Tyreis
+240,3,Tiny Servant,Conjuration,Euris
+241,3,Tongues,Divination,Tyreis
+242,3,Vampiric Touch,Necromancy,Agon
+243,3,Wall of Sand,Evocation,Euris
+244,3,Wall of Water,Evocation,Tyreis
+245,3,Water Breathing,Transmutation,Tyreis
+246,3,Water Walk,Transmutation,Tyreis
+247,3,Wind Wall,Evocation,Tyreis
