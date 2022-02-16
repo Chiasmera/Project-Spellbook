@@ -11,7 +11,8 @@ public class SpellgemBehavior : MonoBehaviour
     public string name;
     public string school;
     public string god;
-    private bool isLearned;
+    public bool isLearned;
+    public bool requirementMet;
 
     [SerializeField] private Sprite abjurationSprite;
     [SerializeField] private Sprite IllusionSprite;
@@ -44,6 +45,13 @@ public class SpellgemBehavior : MonoBehaviour
     {
         
     }
+
+    private void OnMouseDown()
+    {
+        ToggleLearned();
+    }
+
+
 
 
 
@@ -91,7 +99,7 @@ public class SpellgemBehavior : MonoBehaviour
 
     public void ToggleLearned()
     {
-        if (isLearned == false)
+        if (isLearned == false && requirementMet == true)
         {
             SetLearned(true);
         }
@@ -105,4 +113,5 @@ public class SpellgemBehavior : MonoBehaviour
     {
         return isLearned;
     }
+
 }
