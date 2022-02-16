@@ -123,6 +123,201 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &129582592
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7915462791411527219, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Name
+      value: Create Bonfire
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527228, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 81206bd18f145d4429c9bcc77dc40bde, type: 3}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527230, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: id
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+--- !u!1001 &457890068
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7915462791411527219, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Name
+      value: Control Flames
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527228, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fc7b0bdb24c6a6e4992d799df295eeef, type: 3}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527230, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: id
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+--- !u!1001 &513686182
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7915462791411527219, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Name
+      value: Minor Illusion
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527228, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e4f0090e0558a074ead661f9555260ee, type: 3}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527230, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: id
+      value: 19
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,6 +401,71 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &547781709
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7915462791411527219, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Name
+      value: Sacred Flame
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527228, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f6e834b8e0f64c94b86c04a9a2eb7f90, type: 3}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527230, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: id
+      value: 26
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
 --- !u!1 &1130875331
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,7 +501,1247 @@ MonoBehaviour:
     name: 
     school: 
     god: 
-  spellgemDatabase: []
+  spellgemDatabase:
+  - id: 0
+    level: 0
+    name: Acid Splash
+    school: Conjuration
+    god: Euris
+  - id: 1
+    level: 0
+    name: Blade Ward
+    school: Abjuration
+    god: Agon
+  - id: 2
+    level: 0
+    name: Chill Touch
+    school: Necromancy
+    god: Silva & Morior
+  - id: 3
+    level: 0
+    name: Control Flames
+    school: Transmutation
+    god: Diatas
+  - id: 4
+    level: 0
+    name: Create Bonfire
+    school: Conjuration
+    god: Diatas
+  - id: 5
+    level: 0
+    name: Dancing Lights
+    school: Evocation
+    god: Diatas
+  - id: 6
+    level: 0
+    name: Druidcraft
+    school: Transmutation
+    god: Silva & Morior
+  - id: 7
+    level: 0
+    name: Eldritch Blast
+    school: Evocation
+    god: Agon
+  - id: 8
+    level: 0
+    name: Friends
+    school: Enchantment
+    god: Tyreis
+  - id: 9
+    level: 0
+    name: Fire Bolt
+    school: Evocation
+    god: Diatas
+  - id: 10
+    level: 0
+    name: Frostbite
+    school: Evocation
+    god: Silva & Morior
+  - id: 11
+    level: 0
+    name: Guidance
+    school: Divination
+    god: Tyreis
+  - id: 12
+    level: 0
+    name: Gust
+    school: Transmutation
+    god: Tyreis
+  - id: 13
+    level: 0
+    name: Infestation
+    school: Conjuration
+    god: Silva & Morior
+  - id: 14
+    level: 0
+    name: Light
+    school: Evocation
+    god: Diatas
+  - id: 15
+    level: 0
+    name: Mage Hand
+    school: Conjuration
+    god: Euris
+  - id: 16
+    level: 0
+    name: Magic Stone
+    school: Transmutation
+    god: Euris
+  - id: 17
+    level: 0
+    name: Mending
+    school: Transmutation
+    god: Euris
+  - id: 18
+    level: 0
+    name: Message
+    school: Transmutation
+    god: Tyreis
+  - id: 19
+    level: 0
+    name: Minor Illusion
+    school: Illusion
+    god: Diatas
+  - id: 20
+    level: 0
+    name: Mold Earth
+    school: Transmutation
+    god: Euris
+  - id: 21
+    level: 0
+    name: Poison Spray
+    school: Conjuration
+    god: Agon
+  - id: 22
+    level: 0
+    name: Prestidigitation
+    school: Transmutation
+    god: All
+  - id: 23
+    level: 0
+    name: Produce Flame
+    school: Conjuration
+    god: Diatas
+  - id: 24
+    level: 0
+    name: Ray of Frost
+    school: Evocation
+    god: Silva & Morior
+  - id: 25
+    level: 0
+    name: Resistance
+    school: Abjuration
+    god: Agon
+  - id: 26
+    level: 0
+    name: Sacred Flame
+    school: Evocation
+    god: Diatas
+  - id: 27
+    level: 0
+    name: Shape Water
+    school: Transmutation
+    god: Tyreis
+  - id: 28
+    level: 0
+    name: Shillelagh
+    school: Transmutation
+    god: Silva & Morior
+  - id: 29
+    level: 0
+    name: Shocking Grasp
+    school: Evocation
+    god: Euris
+  - id: 30
+    level: 0
+    name: Spare the Dying
+    school: Necromancy
+    god: Silva & Morior
+  - id: 31
+    level: 0
+    name: Thaumaturgy
+    school: Transmutation
+    god: All
+  - id: 32
+    level: 0
+    name: Thorn Whip
+    school: Transmutation
+    god: Silva & Morior
+  - id: 33
+    level: 0
+    name: Thunderclap
+    school: Evocation
+    god: Tyreis
+  - id: 34
+    level: 0
+    name: Toll the Dead
+    school: Necromancy
+    god: Silva & Morior
+  - id: 35
+    level: 0
+    name: True Strike
+    school: Divination
+    god: Agon
+  - id: 36
+    level: 0
+    name: Vicious Mockery
+    school: Enchantment
+    god: Agon
+  - id: 37
+    level: 0
+    name: Word of Radiance
+    school: Evocation
+    god: Diatas
+  - id: 38
+    level: 0
+    name: 'Booming Blade '
+    school: Evocation
+    god: Agon
+  - id: 39
+    level: 0
+    name: Green-Flame Blade
+    school: Evocation
+    god: Agon
+  - id: 40
+    level: 0
+    name: Lightning Lure
+    school: Evocation
+    god: Tyreis
+  - id: 41
+    level: 0
+    name: Sword Burst
+    school: Conjuration
+    god: Agon
+  - id: 42
+    level: 1
+    name: Absorb Elements
+    school: Abjuration
+    god: Agon
+  - id: 43
+    level: 1
+    name: Alarm
+    school: Abjuration
+    god: Tyreis
+  - id: 44
+    level: 1
+    name: Animal Friendship
+    school: Enchantment
+    god: Silva & Morior
+  - id: 45
+    level: 1
+    name: Armor of Agathys
+    school: Abjuration
+    god: Agon
+  - id: 46
+    level: 1
+    name: Arms of Hadar
+    school: Conjuration
+    god: Agon
+  - id: 47
+    level: 1
+    name: Bane
+    school: Enchantment
+    god: Agon
+  - id: 48
+    level: 1
+    name: Banishing Smite
+    school: Abjuration
+    god: Agon
+  - id: 49
+    level: 1
+    name: Beast Bond
+    school: Divination
+    god: Silva & Morior
+  - id: 50
+    level: 1
+    name: Bless
+    school: Enchantment
+    god: All
+  - id: 51
+    level: 1
+    name: Burning Hands
+    school: Evocation
+    god: Diatas
+  - id: 52
+    level: 1
+    name: Catapult
+    school: Transmutation
+    god: Euris
+  - id: 53
+    level: 1
+    name: Cause Fear
+    school: Necromancy
+    god: Agon
+  - id: 54
+    level: 1
+    name: Ceremony
+    school: Abjuration
+    god: All
+  - id: 55
+    level: 1
+    name: Chaos Bolt
+    school: Evocation
+    god: Agon
+  - id: 56
+    level: 1
+    name: Charm Person
+    school: Enchantment
+    god: Tyreis
+  - id: 57
+    level: 1
+    name: Chromatic Orb
+    school: Evocation
+    god: Diatas
+  - id: 58
+    level: 1
+    name: Color Spray
+    school: Illusion
+    god: Diatas
+  - id: 59
+    level: 1
+    name: Command
+    school: Enchantment
+    god: Agon
+  - id: 60
+    level: 1
+    name: Compelled Duel
+    school: Enchantment
+    god: Agon
+  - id: 61
+    level: 1
+    name: Comprehend Languages
+    school: Divination
+    god: Tyreis
+  - id: 62
+    level: 1
+    name: Create or Destroy Water
+    school: Transmutation
+    god: Tyreis
+  - id: 63
+    level: 1
+    name: Cure Wounds
+    school: Evocation
+    god: Silva & Morior
+  - id: 64
+    level: 1
+    name: Detect Evil and Good
+    school: Divination
+    god: Diatas
+  - id: 65
+    level: 1
+    name: Detect Magic
+    school: Divination
+    god: Diatas
+  - id: 66
+    level: 1
+    name: Detect Poison and Disease
+    school: Divination
+    god: Silva & Morior
+  - id: 67
+    level: 1
+    name: Disguise Self
+    school: Illusion
+    god: Tyreis
+  - id: 68
+    level: 1
+    name: Dissonant Whispers
+    school: Enchantment
+    god: Agon
+  - id: 69
+    level: 1
+    name: Divine Favor
+    school: Evocation
+    god: Agon
+  - id: 70
+    level: 1
+    name: Earth Tremor
+    school: Evocation
+    god: Euris
+  - id: 71
+    level: 1
+    name: Ensnaring Strike
+    school: Conjuration
+    god: Silva & Morior
+  - id: 72
+    level: 1
+    name: Entangle
+    school: Conjuration
+    god: Silva & Morior
+  - id: 73
+    level: 1
+    name: Expeditious Retreat
+    school: Transmutation
+    god: Tyreis
+  - id: 74
+    level: 1
+    name: Faerie Fire
+    school: Evocation
+    god: Diatas
+  - id: 75
+    level: 1
+    name: False Life
+    school: Necromancy
+    god: Silva & Morior
+  - id: 76
+    level: 1
+    name: Feather Fall
+    school: Transmutation
+    god: Tyreis
+  - id: 77
+    level: 1
+    name: Find Familiar
+    school: Conjuration
+    god: All
+  - id: 78
+    level: 1
+    name: Fog Cloud
+    school: Conjuration
+    god: Tyreis
+  - id: 79
+    level: 1
+    name: Goodberry
+    school: Conjuration
+    god: Silva & Morior
+  - id: 80
+    level: 1
+    name: Grease
+    school: Conjuration
+    god: Euris
+  - id: 81
+    level: 1
+    name: Guiding Bolt
+    school: Evocation
+    god: Tyreis
+  - id: 82
+    level: 1
+    name: Hail of Thorns
+    school: Conjuration
+    god: Silva & Morior
+  - id: 83
+    level: 1
+    name: Healing Word
+    school: Evocation
+    god: Silva & Morior
+  - id: 84
+    level: 1
+    name: Hellish Rebuke
+    school: Evocation
+    god: Agon
+  - id: 85
+    level: 1
+    name: Heroism
+    school: Enchantment
+    god: Diatas
+  - id: 86
+    level: 1
+    name: Hex
+    school: Enchantment
+    god: Agon
+  - id: 87
+    level: 1
+    name: Hunter's Mark
+    school: Divination
+    god: Silva & Morior
+  - id: 88
+    level: 1
+    name: Ice Knife
+    school: Conjuration
+    god: Silva & Morior
+  - id: 89
+    level: 1
+    name: Identify
+    school: Divination
+    god: Diatas
+  - id: 90
+    level: 1
+    name: Illusory Script
+    school: Illusion
+    god: Euris
+  - id: 91
+    level: 1
+    name: Inflict Wounds
+    school: Necromancy
+    god: Silva & Morior
+  - id: 92
+    level: 1
+    name: Jump
+    school: Transmutation
+    god: Tyreis
+  - id: 93
+    level: 1
+    name: Longstrider
+    school: Transmutation
+    god: Tyreis
+  - id: 94
+    level: 1
+    name: Mage Armor
+    school: Abjuration
+    god: Euris
+  - id: 95
+    level: 1
+    name: Magic Missile
+    school: Evocation
+    god: Euris
+  - id: 96
+    level: 1
+    name: Protection from Evil and Good
+    school: Abjuration
+    god: Silva & Morior
+  - id: 97
+    level: 1
+    name: Purify Food and Drink
+    school: Abjuration
+    god: Diatas
+  - id: 98
+    level: 1
+    name: Ray of Sickness
+    school: Necromancy
+    god: Agon
+  - id: 99
+    level: 1
+    name: Sanctuary
+    school: Abjuration
+    god: Tyreis
+  - id: 100
+    level: 1
+    name: Searing Smite
+    school: Evocation
+    god: Diatas
+  - id: 101
+    level: 1
+    name: Shield
+    school: Abjuration
+    god: Euris
+  - id: 102
+    level: 1
+    name: Shield of Faith
+    school: Abjuration
+    god: Euris
+  - id: 103
+    level: 1
+    name: Silent Image
+    school: Illusion
+    god: Agon
+  - id: 104
+    level: 1
+    name: Sleep
+    school: Enchantment
+    god: Tyreis
+  - id: 105
+    level: 1
+    name: Snare
+    school: Abjuration
+    god: Silva & Morior
+  - id: 106
+    level: 1
+    name: Speak with Animals
+    school: Divination
+    god: Silva & Morior
+  - id: 107
+    level: 1
+    name: Tasha's Hideous Laughter
+    school: Enchantment
+    god: Agon
+  - id: 108
+    level: 1
+    name: Tenser's Floating Disk
+    school: Conjuration
+    god: Euris
+  - id: 109
+    level: 1
+    name: Thunderous Smite
+    school: Evocation
+    god: Tyreis
+  - id: 110
+    level: 1
+    name: Thunderwave
+    school: Evocation
+    god: Tyreis
+  - id: 111
+    level: 1
+    name: Unseen Servant
+    school: Conjuration
+    god: Euris
+  - id: 112
+    level: 1
+    name: Witch Bolt
+    school: Evocation
+    god: Agon
+  - id: 113
+    level: 1
+    name: Wrathful Smite
+    school: Evocation
+    god: Agon
+  - id: 114
+    level: 1
+    name: Zephyr Strike
+    school: Transmutation
+    god: Tyreis
+  - id: 115
+    level: 2
+    name: Aganazzar's Scorcher
+    school: Evocation
+    god: Diatas
+  - id: 116
+    level: 2
+    name: Aid
+    school: Abjuration
+    god: Tyreis
+  - id: 117
+    level: 2
+    name: Alter Self
+    school: Transmutation
+    god: Agon
+  - id: 118
+    level: 2
+    name: Animal Messenger
+    school: Enchantment
+    god: Silva & Morior
+  - id: 119
+    level: 2
+    name: Arcane Lock
+    school: Abjuration
+    god: Euris
+  - id: 120
+    level: 2
+    name: Augury
+    school: Divination
+    god: Diatas
+  - id: 121
+    level: 2
+    name: Barkskin
+    school: Transmutation
+    god: Silva & Morior
+  - id: 122
+    level: 2
+    name: Beast Sense
+    school: Divination
+    god: Silva & Morior
+  - id: 123
+    level: 2
+    name: Blindness/Deafness
+    school: Necromancy
+    god: Diatas
+  - id: 124
+    level: 2
+    name: Blur
+    school: Illusion
+    god: Tyreis
+  - id: 125
+    level: 2
+    name: Branding Smite
+    school: Evocation
+    god: Diatas
+  - id: 126
+    level: 2
+    name: Calm Emotions
+    school: Enchantment
+    god: Agon
+  - id: 127
+    level: 2
+    name: Cloud of Daggers
+    school: Conjuration
+    god: Agon
+  - id: 128
+    level: 2
+    name: Continual Flame
+    school: Evocation
+    god: Diatas
+  - id: 129
+    level: 2
+    name: Cordon of Arrows
+    school: Transmutation
+    god: Euris
+  - id: 130
+    level: 2
+    name: Crown of Madness
+    school: Enchantment
+    god: Agon
+  - id: 131
+    level: 2
+    name: Darkness
+    school: Evocation
+    god: Silva & Morior
+  - id: 132
+    level: 2
+    name: Darkvision
+    school: Transmutation
+    god: Diatas
+  - id: 133
+    level: 2
+    name: Detect Thoughts
+    school: Divination
+    god: Diatas
+  - id: 134
+    level: 2
+    name: Dragon's Breath
+    school: Transmutation
+    god: Euris
+  - id: 135
+    level: 2
+    name: Dust Devil
+    school: Conjuration
+    god: Tyreis
+  - id: 136
+    level: 2
+    name: Earthbind
+    school: Transmutation
+    god: Euris
+  - id: 137
+    level: 2
+    name: Enhance Ability
+    school: Transmutation
+    god: Agon
+  - id: 138
+    level: 2
+    name: Enlarge/Reduce
+    school: Transmutation
+    god: Silva & Morior
+  - id: 139
+    level: 2
+    name: Enthrall
+    school: Enchantment
+    god: Agon
+  - id: 140
+    level: 2
+    name: Find Steed
+    school: Conjuration
+    god: Tyreis
+  - id: 141
+    level: 2
+    name: Find Traps
+    school: Divination
+    god: Euris
+  - id: 142
+    level: 2
+    name: Flame Blade
+    school: Evocation
+    god: Diatas
+  - id: 143
+    level: 2
+    name: Flaming Sphere
+    school: Conjuration
+    god: Diatas
+  - id: 144
+    level: 2
+    name: Gentle Repose
+    school: Necromancy
+    god: Silva & Morior
+  - id: 145
+    level: 2
+    name: Gust of Wind
+    school: Evocation
+    god: Tyreis
+  - id: 146
+    level: 2
+    name: Healing Spirit
+    school: Conjuration
+    god: Silva & Morior
+  - id: 147
+    level: 2
+    name: Heat Metal
+    school: Transmutation
+    god: Euris
+  - id: 148
+    level: 2
+    name: Hold Person
+    school: Enchantment
+    god: Euris
+  - id: 149
+    level: 2
+    name: Invisibility
+    school: Illusion
+    god: Diatas
+  - id: 150
+    level: 2
+    name: Knock
+    school: Transmutation
+    god: Euris
+  - id: 151
+    level: 2
+    name: Lesser Restoration
+    school: Abjuration
+    god: Silva & Morior
+  - id: 152
+    level: 2
+    name: Levitate
+    school: Transmutation
+    god: Tyreis
+  - id: 153
+    level: 2
+    name: Locate Animals or Plants
+    school: Divination
+    god: Silva & Morior
+  - id: 154
+    level: 2
+    name: Locate Object
+    school: Divination
+    god: Diatas
+  - id: 155
+    level: 2
+    name: Magic Mouth
+    school: Illusion
+    god: Euris
+  - id: 156
+    level: 2
+    name: Magic Weapon
+    school: Transmutation
+    god: Euris
+  - id: 157
+    level: 2
+    name: Maximilian's Earthen Grasp
+    school: Transmutation
+    god: Euris
+  - id: 158
+    level: 2
+    name: Melf's Acid Arrow
+    school: Evocation
+    god: Agon
+  - id: 159
+    level: 2
+    name: Mind Spike
+    school: Divination
+    god: Agon
+  - id: 160
+    level: 2
+    name: Mirror Image
+    school: Illusion
+    god: Diatas
+  - id: 161
+    level: 2
+    name: Misty Step
+    school: Conjuration
+    god: Tyreis
+  - id: 162
+    level: 2
+    name: Moonbeam
+    school: Evocation
+    god: Diatas
+  - id: 163
+    level: 2
+    name: Nystul's Magic Aura
+    school: Illusion
+    god: Euris
+  - id: 164
+    level: 2
+    name: Pass Without Trace
+    school: Abjuration
+    god: Silva & Morior
+  - id: 165
+    level: 2
+    name: Phantasmal Force
+    school: Illusion
+    god: Agon
+  - id: 166
+    level: 2
+    name: Prayer of Healing
+    school: Evocation
+    god: Silva & Morior
+  - id: 167
+    level: 2
+    name: Protection from Poison
+    school: Abjuration
+    god: Silva & Morior
+  - id: 168
+    level: 2
+    name: Pyrotechnics
+    school: Transmutation
+    god: Diatas
+  - id: 169
+    level: 2
+    name: Ray of Enfeeblement
+    school: Necromancy
+    god: Agon
+  - id: 170
+    level: 2
+    name: Rope Trick
+    school: Transmutation
+    god: Euris
+  - id: 171
+    level: 2
+    name: Scorching Ray
+    school: Evocation
+    god: Diatas
+  - id: 172
+    level: 2
+    name: See Invisibility
+    school: Divination
+    god: Diatas
+  - id: 173
+    level: 2
+    name: Shadow Blade
+    school: Illusion
+    god: Agon
+  - id: 174
+    level: 2
+    name: Shatter
+    school: Evocation
+    god: Euris
+  - id: 175
+    level: 2
+    name: Silence
+    school: Illusion
+    god: Silva & Morior
+  - id: 176
+    level: 2
+    name: Skywrite
+    school: Transmutation
+    god: Tyreis
+  - id: 177
+    level: 2
+    name: Snilloc's Snowball Swarm
+    school: Evocation
+    god: Tyreis
+  - id: 178
+    level: 2
+    name: Spider Climb
+    school: Transmutation
+    god: Tyreis
+  - id: 179
+    level: 2
+    name: Spike Growth
+    school: Transmutation
+    god: Silva & Morior
+  - id: 180
+    level: 2
+    name: Spiritual Weapon
+    school: Evocation
+    god: Euris
+  - id: 181
+    level: 2
+    name: Suggestion
+    school: Enchantment
+    god: Agon
+  - id: 182
+    level: 2
+    name: Warding Bond
+    school: Abjuration
+    god: Euris
+  - id: 183
+    level: 2
+    name: Warding Wind
+    school: Evocation
+    god: Tyreis
+  - id: 184
+    level: 2
+    name: Web
+    school: Conjuration
+    god: Silva & Morior
+  - id: 185
+    level: 2
+    name: Zone of Truth
+    school: Enchantment
+    god: Diatas
+  - id: 186
+    level: 3
+    name: Animate Dead
+    school: Necromancy
+    god: Silva & Morior
+  - id: 187
+    level: 3
+    name: Auta of Vitality
+    school: Abjuration
+    god: Silva & Morior
+  - id: 188
+    level: 3
+    name: Beacon of Hope
+    school: Abjuration
+    god: Agon
+  - id: 189
+    level: 3
+    name: Bestow Curse
+    school: Necromancy
+    god: Agon
+  - id: 190
+    level: 3
+    name: Blinding Smite
+    school: Evocation
+    god: Diatas
+  - id: 191
+    level: 3
+    name: Blink
+    school: Transmutation
+    god: Tyreis
+  - id: 192
+    level: 3
+    name: Call Lightning
+    school: Conjuration
+    god: Tyreis
+  - id: 193
+    level: 3
+    name: Catnap
+    school: Enchantment
+    god: Silva & Morior
+  - id: 194
+    level: 3
+    name: Clairvoyance
+    school: Divination
+    god: Diatas
+  - id: 195
+    level: 3
+    name: Conjure Animals
+    school: Conjuration
+    god: Silva & Morior
+  - id: 196
+    level: 3
+    name: Conjure Barrage
+    school: Conjuration
+    god: Euris
+  - id: 197
+    level: 3
+    name: Counterspell
+    school: Abjuration
+    god: Agon
+  - id: 198
+    level: 3
+    name: Create Food and Water
+    school: Conjuration
+    god: Silva & Morior
+  - id: 199
+    level: 3
+    name: Crusader's Mantle
+    school: Evocation
+    god: Diatas
+  - id: 200
+    level: 3
+    name: Daylight
+    school: Evocation
+    god: Diatas
+  - id: 201
+    level: 3
+    name: Dispel Magic
+    school: Abjuration
+    god: Euris
+  - id: 202
+    level: 3
+    name: Elemental Weapon
+    school: Transmutation
+    god: Euris
+  - id: 203
+    level: 3
+    name: Enemies Abound
+    school: Enchantment
+    god: Agon
+  - id: 204
+    level: 3
+    name: Erupting Earth
+    school: Transmutation
+    god: Euris
+  - id: 205
+    level: 3
+    name: Fear
+    school: Illusion
+    god: Agon
+  - id: 206
+    level: 3
+    name: Feign Death
+    school: Necromancy
+    god: Silva & Morior
+  - id: 207
+    level: 3
+    name: Fireball
+    school: Evocation
+    god: Diatas
+  - id: 208
+    level: 3
+    name: Flame Arrows
+    school: Transmutation
+    god: Euris
+  - id: 209
+    level: 3
+    name: Fly
+    school: Transmutation
+    god: Tyreis
+  - id: 210
+    level: 3
+    name: Gaseous Form
+    school: Transmutation
+    god: Tyreis
+  - id: 211
+    level: 3
+    name: Glyph of Warding
+    school: Abjuration
+    god: Euris
+  - id: 212
+    level: 3
+    name: Haste
+    school: Transmutation
+    god: Tyreis
+  - id: 213
+    level: 3
+    name: Hunger of Hadar
+    school: Conjuration
+    god: Silva & Morior
+  - id: 214
+    level: 3
+    name: Hypnotic Pattern
+    school: Illusion
+    god: Diatas
+  - id: 215
+    level: 3
+    name: Leomund's Tiny Hut
+    school: Evocation
+    god: Euris
+  - id: 216
+    level: 3
+    name: Life Transference
+    school: Necromancy
+    god: Silva & Morior
+  - id: 217
+    level: 3
+    name: Lightning Arrow
+    school: Transmutation
+    god: Tyreis
+  - id: 218
+    level: 3
+    name: Lightning Bolt
+    school: Evocation
+    god: Tyreis
+  - id: 219
+    level: 3
+    name: Magic Circle
+    school: Abjuration
+    god: Euris
+  - id: 220
+    level: 3
+    name: Major Image
+    school: Illusion
+    god: Agon
+  - id: 221
+    level: 3
+    name: Mass Healing Word
+    school: Evocation
+    god: Silva & Morior
+  - id: 222
+    level: 3
+    name: Meld into Stone
+    school: Transmutation
+    god: Euris
+  - id: 223
+    level: 3
+    name: Melf's Minute Meteors
+    school: Evocation
+    god: Diatas
+  - id: 224
+    level: 3
+    name: Nondetection
+    school: Abjuration
+    god: Agon
+  - id: 225
+    level: 3
+    name: Phantom Steed
+    school: Illusion
+    god: Tyreis
+  - id: 226
+    level: 3
+    name: Plant Growth
+    school: Transmutation
+    god: Silva & Morior
+  - id: 227
+    level: 3
+    name: Protection from Energy
+    school: Abjuration
+    god: Euris
+  - id: 228
+    level: 3
+    name: Remove Curse
+    school: Abjuration
+    god: Diatas
+  - id: 229
+    level: 3
+    name: Revivify
+    school: Necromancy
+    god: Silva & Morior
+  - id: 230
+    level: 3
+    name: Sending
+    school: Evocation
+    god: Tyreis
+  - id: 231
+    level: 3
+    name: Sleet Storm
+    school: Conjuration
+    god: Tyreis
+  - id: 232
+    level: 3
+    name: Slow
+    school: Transmutation
+    god: Tyreis
+  - id: 233
+    level: 3
+    name: Speak with Dead
+    school: Necromancy
+    god: Silva & Morior
+  - id: 234
+    level: 3
+    name: Speak with Plants
+    school: Transmutation
+    god: Silva & Morior
+  - id: 235
+    level: 3
+    name: Spirit Guardians
+    school: Conjuration
+    god: Silva & Morior
+  - id: 236
+    level: 3
+    name: Stinking Cloud
+    school: Conjuration
+    god: Tyreis
+  - id: 237
+    level: 3
+    name: Summon Lesser Demons
+    school: Conjuration
+    god: Agon
+  - id: 238
+    level: 3
+    name: Thunder Step
+    school: Conjuration
+    god: Tyreis
+  - id: 239
+    level: 3
+    name: Tidal Wave
+    school: Conjuration
+    god: Tyreis
+  - id: 240
+    level: 3
+    name: Tiny Servant
+    school: Conjuration
+    god: Euris
+  - id: 241
+    level: 3
+    name: Tongues
+    school: Divination
+    god: Tyreis
+  - id: 242
+    level: 3
+    name: Vampiric Touch
+    school: Necromancy
+    god: Agon
+  - id: 243
+    level: 3
+    name: Wall of Sand
+    school: Evocation
+    god: Euris
+  - id: 244
+    level: 3
+    name: Wall of Water
+    school: Evocation
+    god: Tyreis
+  - id: 245
+    level: 3
+    name: Water Breathing
+    school: Transmutation
+    god: Tyreis
+  - id: 246
+    level: 3
+    name: Water Walk
+    school: Transmutation
+    god: Tyreis
+  - id: 247
+    level: 3
+    name: Wind Wall
+    school: Evocation
+    god: Tyreis
 --- !u!4 &1130875333
 Transform:
   m_ObjectHideFlags: 0
@@ -256,6 +1756,444 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1167027545
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7915462791411527219, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Name
+      value: Fire Bolt
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527228, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f6e834b8e0f64c94b86c04a9a2eb7f90, type: 3}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527230, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: id
+      value: 9
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+--- !u!1001 &1234663083
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7915462791411527219, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Name
+      value: Word of Radiance
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527228, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f6e834b8e0f64c94b86c04a9a2eb7f90, type: 3}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527230, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: id
+      value: 37
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+--- !u!1001 &1249330967
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7915462791411527219, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Name
+      value: Dancing Lights
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527228, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f6e834b8e0f64c94b86c04a9a2eb7f90, type: 3}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527230, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: id
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+--- !u!1 &1320582430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1320582431}
+  - component: {fileID: 1320582432}
+  m_Layer: 0
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1320582431
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320582430}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0109, y: -0.0217, z: 2}
+  m_LocalScale: {x: 1.9575416, y: 1.645973, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1689352355}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1320582432
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320582430}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 7066e0747291df44fa5c2bf93bee3a6e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 15, y: 27.502237}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1001 &1412451749
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7915462791411527219, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Name
+      value: Produce Flame
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527228, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 81206bd18f145d4429c9bcc77dc40bde, type: 3}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527230, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: id
+      value: 23
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+--- !u!1 &1689352354
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1689352355}
+  m_Layer: 0
+  m_Name: DiatasTree
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1689352355
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689352354}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1.260307}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1320582431}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1828646066
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7915462791411527219, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Name
+      value: Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527228, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f6e834b8e0f64c94b86c04a9a2eb7f90, type: 3}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527230, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: id
+      value: 14
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
 --- !u!1 &1909640409
 GameObject:
   m_ObjectHideFlags: 0
@@ -299,103 +2237,133 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2027667319
-GameObject:
+--- !u!1001 &2144042683
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2027667321}
-  - component: {fileID: 2027667320}
-  - component: {fileID: 2027667322}
-  m_Layer: 0
-  m_Name: Spellgem
-  m_TagString: Spellgem
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!212 &2027667320
-SpriteRenderer:
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7915462791411527219, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Name
+      value: Thaumaturgy
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527228, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fc7b0bdb24c6a6e4992d799df295eeef, type: 3}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527230, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: id
+      value: 31
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+--- !u!1001 &7915462793145110852
+PrefabInstance:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027667319}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!4 &2027667321
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027667319}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.48, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2027667322
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2027667319}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 22c64eb8460a5754abf8d3652b44fede, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  level: 0
-  name: 
-  school: 
-  god: 
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7915462791411527219, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Name
+      value: Prestidigitation
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527228, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fc7b0bdb24c6a6e4992d799df295eeef, type: 3}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527229, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7915462791411527230, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}
+      propertyPath: id
+      value: 22
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 466b96e9b0428de4ab1456cf924eb45e, type: 3}

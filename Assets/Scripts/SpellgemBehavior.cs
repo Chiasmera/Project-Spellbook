@@ -13,6 +13,15 @@ public class SpellgemBehavior : MonoBehaviour
     public string god;
     private bool isLearned;
 
+    [SerializeField] private Sprite abjurationSprite;
+    [SerializeField] private Sprite IllusionSprite;
+    [SerializeField] private Sprite ConjurationSprite;
+    [SerializeField] private Sprite EnchantmentSrite;
+    [SerializeField] private Sprite EvocationSprite;
+    [SerializeField] private Sprite DivinationSprite;
+    [SerializeField] private Sprite NecromancySprite;
+    [SerializeField] private Sprite TransmutationSprite;
+
     //Constructor
     public SpellgemBehavior(int id, int level, string name, string school, string god)
     {
@@ -44,28 +53,30 @@ public class SpellgemBehavior : MonoBehaviour
         switch (school)
         {
             case "Abjuration":
-                this.GetComponent<SpriteRenderer>().color = Color.blue;
+                this.GetComponent<SpriteRenderer>().sprite = abjurationSprite;
                 break;
             case "Illusion":
-                this.GetComponent<SpriteRenderer>().color = new Color(0.5f, 0, 1, 1);
+                this.GetComponent<SpriteRenderer>().sprite = IllusionSprite;
                 break;
             case "Conjuration":
-                this.GetComponent<SpriteRenderer>().color = new Color(1.0f, 0.64f, 0.0f, 1.0f);
+                this.GetComponent<SpriteRenderer>().sprite = ConjurationSprite;
                 break;
             case "Enchantment":
-                this.GetComponent<SpriteRenderer>().color = Color.yellow;
+                this.GetComponent<SpriteRenderer>().sprite = EnchantmentSrite;
                 break;
             case "Evocation":
-                this.GetComponent<SpriteRenderer>().color = Color.red;
+                this.GetComponent<SpriteRenderer>().sprite = EvocationSprite;
                 break;
             case "Divination":
-                this.GetComponent<SpriteRenderer>().color = Color.white;
+                this.GetComponent<SpriteRenderer>().sprite = DivinationSprite;
+
                 break;
             case "Necromancy":
-                this.GetComponent<SpriteRenderer>().color = Color.black;
+                this.GetComponent<SpriteRenderer>().sprite = NecromancySprite;
+                this.GetComponent<SpriteRenderer>().color = new Color(0.5f,0.5f,0.5f, 1f);
                 break;
             case "Transmutation":
-                this.GetComponent<SpriteRenderer>().color = Color.green;
+                this.GetComponent<SpriteRenderer>().sprite = TransmutationSprite;
                 break;
             default:
                 print("No school");
