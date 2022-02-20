@@ -111,6 +111,8 @@ MonoBehaviour:
   DivinationSprite: {fileID: 21300000, guid: 95f5da73d2e27934589e6f9e1c8137ab, type: 3}
   NecromancySprite: {fileID: 21300000, guid: 980510ec89aa59d48a25c395e4bb5ecb, type: 3}
   TransmutationSprite: {fileID: 21300000, guid: fc7b0bdb24c6a6e4992d799df295eeef, type: 3}
+  learnedTokenPrefab: {fileID: 1567442054426440647, guid: 3b817891a9156af41a54697e2c59f0e9, type: 3}
+  learnedToken: {fileID: 0}
 --- !u!61 &3321237938797474931
 BoxCollider2D:
   m_ObjectHideFlags: 0

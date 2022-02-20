@@ -23,6 +23,9 @@ public class SpellgemBehavior : MonoBehaviour
     [SerializeField] private Sprite NecromancySprite;
     [SerializeField] private Sprite TransmutationSprite;
 
+    [SerializeField] private GameObject learnedTokenPrefab;
+    [SerializeField] private GameObject learnedToken;
+
     //Constructor
     public SpellgemBehavior(int id, int level, string name, string school, string god)
     {
@@ -34,10 +37,10 @@ public class SpellgemBehavior : MonoBehaviour
     }
 
 
-    // Start is called before the first frame update
-    void Start()
+
+    void Awake()
     {
-        
+        SpawnLearnedToken();
     }
 
     // Update is called once per frame
@@ -95,6 +98,8 @@ public class SpellgemBehavior : MonoBehaviour
     public void SetLearned(bool state)
     {
         isLearned = state;
+
+
     }
 
     public void ToggleLearned()
@@ -102,16 +107,25 @@ public class SpellgemBehavior : MonoBehaviour
         if (isLearned == false && requirementMet == true)
         {
             SetLearned(true);
+            learnedToken.SetActive(true);
         }
         else
         {
             SetLearned(false);
+            learnedToken.SetActive(false);
         }
     }
 
     public bool GetLearned()
     {
         return isLearned;
+    }
+
+    public void SpawnLearnedToken()
+    {
+        learnedToken = Instantiate(learnedTokenPrefab, gameObject.transform.position, gameObject.transform.rotation);
+        learnedToken.transform.Rotate(new Vector3(0, 0, 1 * Random.Range(0, 180)));
+        learnedToken.SetActive(false);
     }
 
 }
