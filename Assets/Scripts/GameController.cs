@@ -5,13 +5,19 @@ using UnityEngine;
 public class GameController : MonoBehaviour
 {
     public static GameController gamecontrollerInstance;
+    public GameObject database;
+    public GameObject spellgemPrefab;
 
     // Start is called before the first frame update
     void Start()
     {
+        //Finds the database LoadCVS script and sets the database variable.
+        database = GameObject.Find("SpellDatabase");
+
         //Loads the data from the spelllist and sorts it
-        GameObject.Find("SpellDatabase").GetComponent<LoadCSV>().LoadSpellListData();
-        GameObject.Find("SpellDatabase").GetComponent<LoadCSV>().spellgemDatabase.Sort();
+        database.GetComponent<LoadCSV>().LoadSpellListData();
+        database.GetComponent<LoadCSV>().spellgemDatabase.Sort();
+
 
         //Populates all active spellgems with data from spelllist
         PopulateSpellgems();
@@ -55,6 +61,91 @@ public class GameController : MonoBehaviour
 
             activeSpellgems[i].GetComponent<SpellgemBehavior>().SetSchoolColor();
             activeSpellgems[i].name = activeSpellgems[i].GetComponent<SpellgemBehavior>().name;
+        }
+    }
+
+    public void SpawnGems ()
+    {
+        for (int i = 0; i < database.GetComponent<LoadCSV>().spellgemDatabase.Count; i++)
+        {
+            GameObject tempSpellgem;
+            int levelOffset;
+
+            //Sets an offset to the spawn position x based on the level of the gem
+            switch (database.GetComponent<LoadCSV>().spellgemDatabase[i].level)
+            {
+                case 0:
+                    levelOffset = -6;
+                    break;
+                case 1:
+                    levelOffset = -2;
+                    break;
+                case 2:
+                    levelOffset = 2;
+                    break;
+                case 3:
+                    levelOffset = 6;
+                    break;
+                default:
+                    levelOffset = 0;
+                    break;
+            }
+
+            //Checks the god variable and spawns the gem on the corresponding tree, offset by level. If all gods have the gem, spawns a gem for each
+            switch (database.GetComponent<LoadCSV>().spellgemDatabase[i].god)
+            {
+                case "Diatas":
+                tempSpellgem = Instantiate(spellgemPrefab, new Vector3(0 + levelOffset, 0, -1), transform.rotation);
+                    tempSpellgem.transform.parent = GameObject.Find("DiatasTree").transform;
+                    tempSpellgem.GetComponent<SpellgemBehavior>().id = database.GetComponent<LoadCSV>().spellgemDatabase[i].id;
+                    break;
+                case "Euris":
+                    tempSpellgem = Instantiate(spellgemPrefab, new Vector3(-40 + levelOffset, 0, -1), transform.rotation);
+                    tempSpellgem.transform.parent = GameObject.Find("EurisTree").transform;
+                    tempSpellgem.GetComponent<SpellgemBehavior>().id = database.GetComponent<LoadCSV>().spellgemDatabase[i].id;
+                    break;
+                case "Tyreis":
+                    tempSpellgem = Instantiate(spellgemPrefab, new Vector3(20 + levelOffset, 0, -1), transform.rotation);
+                    tempSpellgem.transform.parent = GameObject.Find("TyreisTree").transform;
+                    tempSpellgem.GetComponent<SpellgemBehavior>().id = database.GetComponent<LoadCSV>().spellgemDatabase[i].id;
+                    break;
+                case "Agon":
+                    tempSpellgem = Instantiate(spellgemPrefab, new Vector3(-20 + levelOffset, 0, -1), transform.rotation);
+                    tempSpellgem.transform.parent = GameObject.Find("AgonTree").transform;
+                    tempSpellgem.GetComponent<SpellgemBehavior>().id = database.GetComponent<LoadCSV>().spellgemDatabase[i].id;
+                    break;
+                case "Silva & Morior":
+                    tempSpellgem = Instantiate(spellgemPrefab, new Vector3(40 + levelOffset, 0, -1), transform.rotation);
+                    tempSpellgem.transform.parent = GameObject.Find("SilvaMoriorTree").transform;
+                    tempSpellgem.GetComponent<SpellgemBehavior>().id = database.GetComponent<LoadCSV>().spellgemDatabase[i].id;
+                    break;
+                case "All":
+                    tempSpellgem = Instantiate(spellgemPrefab, new Vector3(40 + levelOffset, 0, -1), transform.rotation);
+                    tempSpellgem.transform.parent = GameObject.Find("SilvaMoriorTree").transform;
+                    tempSpellgem.GetComponent<SpellgemBehavior>().id = database.GetComponent<LoadCSV>().spellgemDatabase[i].id;
+
+                    tempSpellgem = Instantiate(spellgemPrefab, new Vector3(-20 + levelOffset, 0, -1), transform.rotation);
+                    tempSpellgem.transform.parent = GameObject.Find("AgonTree").transform;
+                    tempSpellgem.GetComponent<SpellgemBehavior>().id = database.GetComponent<LoadCSV>().spellgemDatabase[i].id;
+
+                    tempSpellgem = Instantiate(spellgemPrefab, new Vector3(20 + levelOffset, 0, -1), transform.rotation);
+                    tempSpellgem.transform.parent = GameObject.Find("TyreisTree").transform;
+                    tempSpellgem.GetComponent<SpellgemBehavior>().id = database.GetComponent<LoadCSV>().spellgemDatabase[i].id;
+
+                    tempSpellgem = Instantiate(spellgemPrefab, new Vector3(-40 + levelOffset, 0, -1), transform.rotation);
+                    tempSpellgem.transform.parent = GameObject.Find("EurisTree").transform;
+                    tempSpellgem.GetComponent<SpellgemBehavior>().id = database.GetComponent<LoadCSV>().spellgemDatabase[i].id;
+
+                    tempSpellgem = Instantiate(spellgemPrefab, new Vector3(0 + levelOffset, 0, -1), transform.rotation);
+                    tempSpellgem.transform.parent = GameObject.Find("DiatasTree").transform;
+                    tempSpellgem.GetComponent<SpellgemBehavior>().id = database.GetComponent<LoadCSV>().spellgemDatabase[i].id;
+
+                    break;
+                default:
+                    Debug.Log("No God found for spellgem");
+                    break;
+            }
+            
         }
     }
 
