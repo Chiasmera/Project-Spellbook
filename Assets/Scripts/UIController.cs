@@ -25,6 +25,7 @@ public class UIController : MonoBehaviour
         viewPositionList.Add(new Vector3(40, 0,-10));
 
         currentView = 2;
+        
 
         //Changes the text on the left and right buttons to the names of the skill trees on the left and right
         ChangeUINames();
