@@ -26,6 +26,8 @@ public class SpellgemBehavior : MonoBehaviour
     [SerializeField] private GameObject learnedTokenPrefab;
     [SerializeField] private GameObject learnedToken;
 
+
+
     //Constructor
     public SpellgemBehavior(int id, int level, string name, string school, string god)
     {
@@ -98,7 +100,19 @@ public class SpellgemBehavior : MonoBehaviour
     public void SetLearned(bool state)
     {
         isLearned = state;
+        learnedToken.SetActive(state);
 
+        if (state)
+        {
+            UIController.learnedSpellIDs.Add(this.id);
+            GameObject.Find("UI Controller").GetComponent<UIController>().AddToMasteryCount(this.school);
+
+        } else
+        {
+            UIController.learnedSpellIDs.Remove(this.id);
+            GameObject.Find("UI Controller").GetComponent<UIController>().RemoveFromMasteryCount(this.school);
+
+        }
 
     }
 
@@ -107,12 +121,13 @@ public class SpellgemBehavior : MonoBehaviour
         if (isLearned == false && requirementMet == true)
         {
             SetLearned(true);
-            learnedToken.SetActive(true);
+
+            
         }
         else
         {
             SetLearned(false);
-            learnedToken.SetActive(false);
+
         }
     }
 
@@ -127,5 +142,7 @@ public class SpellgemBehavior : MonoBehaviour
         learnedToken.transform.Rotate(new Vector3(0, 0, 1 * Random.Range(0, 180)));
         learnedToken.SetActive(false);
     }
+
+
 
 }

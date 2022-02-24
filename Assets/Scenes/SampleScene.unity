@@ -692,6 +692,17 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &14087398 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5675287882041283347, guid: cea3211fc921b5448931949b9b61eb42, type: 3}
+  m_PrefabInstance: {fileID: 14087394}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14087396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &18893569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5640,6 +5651,17 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &133447407 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5675287882041283347, guid: cea3211fc921b5448931949b9b61eb42, type: 3}
+  m_PrefabInstance: {fileID: 133447403}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133447405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &133644339
 GameObject:
   m_ObjectHideFlags: 0
@@ -6267,7 +6289,7 @@ MonoBehaviour:
   school: Transmutation
   god: All
   isLearned: 0
-  requirementMet: 0
+  requirementMet: 1
   abjurationSprite: {fileID: 21300000, guid: 53e54ae94a7ae1c49ad8dd9abc5cfd34, type: 3}
   IllusionSprite: {fileID: 21300000, guid: e4f0090e0558a074ead661f9555260ee, type: 3}
   ConjurationSprite: {fileID: 21300000, guid: 81206bd18f145d4429c9bcc77dc40bde, type: 3}
@@ -13073,6 +13095,17 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &345006461 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5675287882041283347, guid: cea3211fc921b5448931949b9b61eb42, type: 3}
+  m_PrefabInstance: {fileID: 345006457}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345006459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &345435793
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21720,6 +21753,17 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &686618713 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5675287882041283347, guid: cea3211fc921b5448931949b9b61eb42, type: 3}
+  m_PrefabInstance: {fileID: 686618709}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 686618711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &687187219
 GameObject:
   m_ObjectHideFlags: 0
@@ -22963,6 +23007,17 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &725040071 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5675287882041283347, guid: cea3211fc921b5448931949b9b61eb42, type: 3}
+  m_PrefabInstance: {fileID: 725040067}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 725040069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &727368898
 GameObject:
   m_ObjectHideFlags: 0
@@ -24051,7 +24106,7 @@ MonoBehaviour:
   school: Transmutation
   god: All
   isLearned: 0
-  requirementMet: 0
+  requirementMet: 1
   abjurationSprite: {fileID: 21300000, guid: 53e54ae94a7ae1c49ad8dd9abc5cfd34, type: 3}
   IllusionSprite: {fileID: 21300000, guid: e4f0090e0558a074ead661f9555260ee, type: 3}
   ConjurationSprite: {fileID: 21300000, guid: 81206bd18f145d4429c9bcc77dc40bde, type: 3}
@@ -25649,7 +25704,7 @@ MonoBehaviour:
   school: Transmutation
   god: All
   isLearned: 0
-  requirementMet: 0
+  requirementMet: 1
   abjurationSprite: {fileID: 21300000, guid: 53e54ae94a7ae1c49ad8dd9abc5cfd34, type: 3}
   IllusionSprite: {fileID: 21300000, guid: e4f0090e0558a074ead661f9555260ee, type: 3}
   ConjurationSprite: {fileID: 21300000, guid: 81206bd18f145d4429c9bcc77dc40bde, type: 3}
@@ -26549,7 +26604,7 @@ MonoBehaviour:
   school: Transmutation
   god: All
   isLearned: 0
-  requirementMet: 0
+  requirementMet: 1
   abjurationSprite: {fileID: 21300000, guid: 53e54ae94a7ae1c49ad8dd9abc5cfd34, type: 3}
   IllusionSprite: {fileID: 21300000, guid: e4f0090e0558a074ead661f9555260ee, type: 3}
   ConjurationSprite: {fileID: 21300000, guid: 81206bd18f145d4429c9bcc77dc40bde, type: 3}
@@ -28120,6 +28175,17 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &870059255 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5675287882041283347, guid: cea3211fc921b5448931949b9b61eb42, type: 3}
+  m_PrefabInstance: {fileID: 870059251}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 870059253}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &871417478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34773,6 +34839,17 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &1066556067 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5675287882041283347, guid: cea3211fc921b5448931949b9b61eb42, type: 3}
+  m_PrefabInstance: {fileID: 1066556063}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1066556065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1075868679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36391,7 +36468,7 @@ MonoBehaviour:
   school: Transmutation
   god: All
   isLearned: 0
-  requirementMet: 0
+  requirementMet: 1
   abjurationSprite: {fileID: 21300000, guid: 53e54ae94a7ae1c49ad8dd9abc5cfd34, type: 3}
   IllusionSprite: {fileID: 21300000, guid: e4f0090e0558a074ead661f9555260ee, type: 3}
   ConjurationSprite: {fileID: 21300000, guid: 81206bd18f145d4429c9bcc77dc40bde, type: 3}
@@ -38160,6 +38237,17 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &1131546165 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5675287882041283347, guid: cea3211fc921b5448931949b9b61eb42, type: 3}
+  m_PrefabInstance: {fileID: 1131546161}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131546163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1131858659
 GameObject:
   m_ObjectHideFlags: 0
@@ -42399,6 +42487,17 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &1278143164 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5675287882041283347, guid: cea3211fc921b5448931949b9b61eb42, type: 3}
+  m_PrefabInstance: {fileID: 1278143160}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1278143162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1279700584
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43831,6 +43930,30 @@ MonoBehaviour:
   goLeftButton: {fileID: 1192189808}
   goRightButton: {fileID: 1832048384}
   currentGod: {fileID: 465320169}
+  abjurationCount: 0
+  IllusionCount: 0
+  ConjurationCount: 0
+  EnchantmentCount: 0
+  EvocationCount: 0
+  DivinationCount: 0
+  NecromancyCount: 0
+  TransmutationCount: 0
+  abjurationCountText: {fileID: 1545940152}
+  IllusionCountText: {fileID: 1278143164}
+  ConjurationCountText: {fileID: 725040071}
+  EnchantmentCountText: {fileID: 345006461}
+  EvocationCountText: {fileID: 1794098781}
+  DivinationCountText: {fileID: 1131546165}
+  NecromancyCountText: {fileID: 870059255}
+  TransmutationCountText: {fileID: 686618713}
+  abjurationMasteryText: {fileID: 1707251611}
+  IllusionMasteryText: {fileID: 14087398}
+  ConjurationMasteryText: {fileID: 1567685764}
+  EnchantmentMasteryText: {fileID: 1313459814}
+  EvocationMasteryText: {fileID: 1066556067}
+  DivinationMasteryText: {fileID: 1364889106}
+  NecromancyMasteryText: {fileID: 2009374942}
+  TransmutationMasteryText: {fileID: 133447407}
 --- !u!1 &1299161317
 GameObject:
   m_ObjectHideFlags: 0
@@ -44956,6 +45079,17 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &1313459814 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5675287882041283347, guid: cea3211fc921b5448931949b9b61eb42, type: 3}
+  m_PrefabInstance: {fileID: 1313459810}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313459812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1314298330
 GameObject:
   m_ObjectHideFlags: 0
@@ -46552,6 +46686,17 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &1364889106 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5675287882041283347, guid: cea3211fc921b5448931949b9b61eb42, type: 3}
+  m_PrefabInstance: {fileID: 1364889102}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1364889104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1369713970
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51815,6 +51960,17 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &1545940152 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5675287882041283347, guid: cea3211fc921b5448931949b9b61eb42, type: 3}
+  m_PrefabInstance: {fileID: 1545940148}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545940150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1546428594
 GameObject:
   m_ObjectHideFlags: 0
@@ -52505,6 +52661,17 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &1567685764 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5675287882041283347, guid: cea3211fc921b5448931949b9b61eb42, type: 3}
+  m_PrefabInstance: {fileID: 1567685760}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567685762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1571898034
 GameObject:
   m_ObjectHideFlags: 0
@@ -56687,6 +56854,17 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &1707251611 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5675287882041283347, guid: cea3211fc921b5448931949b9b61eb42, type: 3}
+  m_PrefabInstance: {fileID: 1707251607}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1707251609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1708011407
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59124,6 +59302,17 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &1794098781 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5675287882041283347, guid: cea3211fc921b5448931949b9b61eb42, type: 3}
+  m_PrefabInstance: {fileID: 1794098777}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794098779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1794356734
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64212,7 +64401,7 @@ MonoBehaviour:
   school: Transmutation
   god: All
   isLearned: 0
-  requirementMet: 0
+  requirementMet: 1
   abjurationSprite: {fileID: 21300000, guid: 53e54ae94a7ae1c49ad8dd9abc5cfd34, type: 3}
   IllusionSprite: {fileID: 21300000, guid: e4f0090e0558a074ead661f9555260ee, type: 3}
   ConjurationSprite: {fileID: 21300000, guid: 81206bd18f145d4429c9bcc77dc40bde, type: 3}
@@ -64351,7 +64540,7 @@ MonoBehaviour:
   school: Transmutation
   god: All
   isLearned: 0
-  requirementMet: 0
+  requirementMet: 1
   abjurationSprite: {fileID: 21300000, guid: 53e54ae94a7ae1c49ad8dd9abc5cfd34, type: 3}
   IllusionSprite: {fileID: 21300000, guid: e4f0090e0558a074ead661f9555260ee, type: 3}
   ConjurationSprite: {fileID: 21300000, guid: 81206bd18f145d4429c9bcc77dc40bde, type: 3}
@@ -65329,6 +65518,17 @@ MonoBehaviour:
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!114 &2009374942 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5675287882041283347, guid: cea3211fc921b5448931949b9b61eb42, type: 3}
+  m_PrefabInstance: {fileID: 2009374938}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009374940}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2009734457
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68294,7 +68494,7 @@ MonoBehaviour:
   school: Transmutation
   god: All
   isLearned: 0
-  requirementMet: 0
+  requirementMet: 1
   abjurationSprite: {fileID: 21300000, guid: 53e54ae94a7ae1c49ad8dd9abc5cfd34, type: 3}
   IllusionSprite: {fileID: 21300000, guid: e4f0090e0558a074ead661f9555260ee, type: 3}
   ConjurationSprite: {fileID: 21300000, guid: 81206bd18f145d4429c9bcc77dc40bde, type: 3}
