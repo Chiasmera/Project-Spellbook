@@ -105,12 +105,59 @@ public class SpellgemBehavior : MonoBehaviour
         if (state)
         {
             UIController.learnedSpellIDs.Add(this.id);
+
+            if (level ==0)
+            {
+                UIController.lvl0SpellsLearned += 1;
+            } else if (level == 1)
+            {
+                UIController.lvl1SpellsLearned += 1;
+            }
+            else if (level == 2)
+            {
+                UIController.lvl2SpellsLearned += 1;
+            } else
+            {
+                UIController.lvl3SpellsLearned += 1;
+            }
+
+
             GameObject.Find("UI Controller").GetComponent<UIController>().AddToMasteryCount(this.school);
+            GameObject.Find("UI Controller").GetComponent<UIController>().UpdateStats();
+            if ( UIController.spellbookOn == true)
+            {
+                GameObject.Find("UI Controller").GetComponent<UIController>().UpdateSpellbook();
+            }
+
 
         } else
         {
             UIController.learnedSpellIDs.Remove(this.id);
+
+            if (level == 0)
+            {
+                UIController.lvl0SpellsLearned -= 1;
+            }
+            else if (level == 1)
+            {
+                UIController.lvl1SpellsLearned -= 1;
+            }
+            else if (level == 2)
+            {
+                UIController.lvl2SpellsLearned -= 1;
+            }
+            else
+            {
+                UIController.lvl3SpellsLearned -= 1;
+            }
+
             GameObject.Find("UI Controller").GetComponent<UIController>().RemoveFromMasteryCount(this.school);
+            GameObject.Find("UI Controller").GetComponent<UIController>().UpdateStats();
+
+            if (UIController.spellbookOn == true)
+            {
+                GameObject.Find("UI Controller").GetComponent<UIController>().UpdateSpellbook();
+            }
 
         }
 
@@ -124,7 +171,7 @@ public class SpellgemBehavior : MonoBehaviour
 
             
         }
-        else
+        else if (isLearned == true )
         {
             SetLearned(false);
 
@@ -142,6 +189,8 @@ public class SpellgemBehavior : MonoBehaviour
         learnedToken.transform.Rotate(new Vector3(0, 0, 1 * Random.Range(0, 180)));
         learnedToken.SetActive(false);
     }
+
+
 
 
 

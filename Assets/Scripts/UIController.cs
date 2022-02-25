@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
@@ -11,6 +12,48 @@ public class UIController : MonoBehaviour
 
     //List of all learned spellgems
     public static List<int> learnedSpellIDs = new List<int>();
+    
+
+    //variables for statistics
+    private int totalSpells;
+    public static int lvl0SpellsLearned;
+    public static int lvl1SpellsLearned;
+    public static int lvl2SpellsLearned;
+    public static int lvl3SpellsLearned;
+
+    int spellslot1;
+    int spellslot2;
+    int spellslot3;
+    int spellslot4;
+    int spellslot5;
+    int spellslot6;
+    int spellslot7;
+
+    [SerializeField] TextMeshProUGUI spellslot1Text;
+    [SerializeField] TextMeshProUGUI spellslot2Text;
+    [SerializeField] TextMeshProUGUI spellslot3Text;
+    [SerializeField] TextMeshProUGUI spellslot4Text;
+    [SerializeField] TextMeshProUGUI spellslot5Text;
+    [SerializeField] TextMeshProUGUI spellslot6Text;
+    [SerializeField] TextMeshProUGUI spellslot7Text;
+
+    //Spellbook variables
+    public static bool spellbookOn = false;
+    [SerializeField] GameObject statBlockObject;
+    [SerializeField] GameObject spellBookObject;
+    [SerializeField] TextMeshProUGUI spellbookButtonText;
+
+    [SerializeField] Button spellbookButton;
+    [SerializeField] Sprite buttonPressedImage;
+    [SerializeField] Sprite buttonImage;
+
+    [SerializeField] GameObject lvl0Column;
+    [SerializeField] GameObject lvl1Column;
+    [SerializeField] GameObject lvl2Column;
+    [SerializeField] GameObject lvl3Column;
+
+    [SerializeField] GameObject spellDatabaseObject;
+    [SerializeField] GameObject inventorySpellPrefab;
 
     //Variables to assign the UI elements
     [SerializeField] TextMeshProUGUI goLeftButton;
@@ -221,6 +264,191 @@ public class UIController : MonoBehaviour
         } else
         {
             return "Amateur";
+        }
+    }
+
+    public void UpdateStats ()
+    {
+        totalSpells = learnedSpellIDs.Count;
+
+        spellslot1 = (lvl0SpellsLearned / 4) + (lvl1SpellsLearned / 3) + (lvl2SpellsLearned/2) + (lvl3SpellsLearned);
+        spellslot2 = (lvl0SpellsLearned / 5) + (lvl1SpellsLearned / 4) + (lvl2SpellsLearned/3) + (lvl3SpellsLearned/2);
+        spellslot3 = (lvl0SpellsLearned / 6) + (lvl1SpellsLearned / 5) + (lvl2SpellsLearned/4) + (lvl3SpellsLearned/3);
+
+        ConvertAllSpellslots();
+
+        if(lvl1SpellsLearned>0 && spellslot1==0 && spellslot2==0 && spellslot3==0) { spellslot1 = 1; }
+        if (lvl2SpellsLearned>0 && spellslot2 == 0 && spellslot3 == 0) { spellslot2 = 1; }
+        if (lvl3SpellsLearned > 0 && spellslot3 == 0) { spellslot3 = 1; }
+
+
+
+        spellslot1Text.text = "" + spellslot1;
+        spellslot2Text.text = "" + spellslot2;
+        spellslot3Text.text = "" + spellslot3;
+        spellslot4Text.text = "" + spellslot4;
+        spellslot5Text.text = "" + spellslot5;
+        spellslot6Text.text = "" + spellslot6;
+        spellslot7Text.text = "" + spellslot7;
+
+
+    }
+
+    public void ConvertSpellslot1 ()
+    {
+        while (spellslot1 > 5)
+        {
+            spellslot1 -= 2;
+            spellslot2 += 1;
+        }
+    }
+
+    public void ConvertSpellslot2()
+    {
+        while (spellslot2 > 5)
+        {
+            spellslot2 -= 2;
+            spellslot3 += 1;
+        }
+    }
+
+    public void ConvertSpellslot3()
+    {
+        while (spellslot3 > 5)
+        {
+            spellslot3 -= 2;
+            spellslot4 += 1;
+        }
+    }
+
+    public void ConvertSpellslot4()
+    {
+        while (spellslot4 > 5)
+        {
+            spellslot4 -= 2;
+            spellslot5 += 1;
+        }
+    }
+
+    public void ConvertSpellslot5()
+    {
+        while (spellslot5 > 5)
+        {
+            spellslot5 -= 2;
+            spellslot6 += 1;
+        }
+    }
+    public void ConvertSpellslot6()
+    {
+        while (spellslot6 > 5)
+        {
+            spellslot6 -= 2;
+            spellslot7 += 1;
+        }
+    }
+
+    public void ConvertAllSpellslots ()
+    {
+        ConvertSpellslot1();
+        ConvertSpellslot2();
+        ConvertSpellslot3();
+        ConvertSpellslot4();
+        ConvertSpellslot5();
+        ConvertSpellslot6();
+    }
+
+    public void ToggleSpellbook ()
+    {
+        if (!spellbookOn)
+        {
+            spellbookOn = true;
+            spellbookButton.image.sprite = buttonPressedImage;
+            statBlockObject.SetActive(false);
+            spellBookObject.SetActive(true);
+            spellbookButtonText.transform.Translate(Vector2.down * 12);
+
+            UpdateSpellbook();
+
+        } else
+        {
+            spellbookOn = false;
+            spellbookButton.image.sprite = buttonImage;
+            statBlockObject.SetActive(true);
+            spellBookObject.SetActive(false);
+            spellbookButtonText.transform.Translate(Vector2.up * 12);
+
+        }
+    }
+
+    public void UpdateSpellbook ()
+    {
+        //Clear the spellbook
+        int childs0 = lvl0Column.transform.childCount;
+        if (childs0 != 0)
+        {
+            for (int i = childs0 - 1; i >= 0; i--)
+            {
+                GameObject.Destroy(lvl0Column.transform.GetChild(i).gameObject);
+            }
+        }
+        
+        int childs1 = lvl1Column.transform.childCount;
+        if (childs1 != 0)
+        {
+            for (int i = childs1 - 1; i >= 0; i--)
+            {
+                GameObject.Destroy(lvl1Column.transform.GetChild(i).gameObject);
+            }
+        }
+
+        int childs2 = lvl2Column.transform.childCount;
+        if (childs2 != 0)
+        {
+            for (int i = childs2 - 1; i >= 0; i--)
+            {
+                GameObject.Destroy(lvl2Column.transform.GetChild(i).gameObject);
+            }
+        }
+
+        int childs3 = lvl3Column.transform.childCount;
+        if (childs3 != 0)
+        {
+            for (int i = childs3 - 1; i >= 0; i--)
+            {
+                GameObject.Destroy(lvl3Column.transform.GetChild(i).gameObject);
+            }
+        }
+
+        //For each spell in the learned ID list, check their level and create a text object in the corresponding column
+        for (int i = 0; i <= learnedSpellIDs.Count; i++)
+        {
+            
+
+            if (spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[learnedSpellIDs[i]].level == 0)
+            {
+                GameObject currentSpell;
+                currentSpell = Instantiate(inventorySpellPrefab, lvl0Column.transform);
+                currentSpell.GetComponentInChildren<TextMeshProUGUI>().text = spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[learnedSpellIDs[i]].name;
+
+            } else if (spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[learnedSpellIDs[i]].level == 1)
+            {
+                GameObject currentSpell;
+                currentSpell = Instantiate(inventorySpellPrefab, lvl1Column.transform);
+                currentSpell.GetComponentInChildren<TextMeshProUGUI>().text = spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[learnedSpellIDs[i]].name;
+            }
+            else if (spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[learnedSpellIDs[i]].level == 2)
+            {
+                GameObject currentSpell;
+                currentSpell = Instantiate(inventorySpellPrefab, lvl2Column.transform);
+                currentSpell.GetComponentInChildren<TextMeshProUGUI>().text = spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[learnedSpellIDs[i]].name;
+            }
+            else if (spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[learnedSpellIDs[i]].level == 3)
+            {
+                GameObject currentSpell;
+                currentSpell = Instantiate(inventorySpellPrefab, lvl3Column.transform);
+                currentSpell.GetComponentInChildren<TextMeshProUGUI>().text = spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[learnedSpellIDs[i]].name;
+            }
+            
         }
     }
 
