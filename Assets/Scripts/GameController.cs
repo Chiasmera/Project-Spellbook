@@ -1,16 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class GameController : MonoBehaviour
 {
     public static GameController gamecontrollerInstance;
     public GameObject database;
     public GameObject spellgemPrefab;
+    public List<int> learnedSpellIDList = new List<int>();
 
     // Start is called before the first frame update
     void Start()
     {
+        StartCoroutine(WaithWhileLoading());
+
         //Finds the database LoadCVS script and sets the database variable.
         database = GameObject.Find("SpellDatabase");
 
@@ -21,6 +25,94 @@ public class GameController : MonoBehaviour
 
         //Populates all active spellgems with data from spelllist
         PopulateSpellgems();
+    }
+
+    IEnumerator WaithWhileLoading ()
+    {
+        yield return new WaitForSecondsRealtime(5);
+
+        GameObject.Find("LoadingScreen").SetActive(false);
+    }
+
+    //Class and methods for saving data in json
+    [System.Serializable]
+    class SaveData
+    {
+        public List<int> learnedSpellIDs;
+    }
+
+    public void SaveSpellIDs ()
+    {
+        SaveData data = new SaveData();
+        data.learnedSpellIDs = learnedSpellIDList;
+
+        string json = JsonUtility.ToJson(data);
+
+        File.WriteAllText(Application.persistentDataPath + "/savefile.json", json);
+
+        Debug.Log("List saved at"+Application.persistentDataPath);
+    }
+
+
+
+    public void LoadSpellIDs ()
+    {
+        string path = Application.persistentDataPath + "/savefile.json";
+        if (File.Exists(path))
+        {
+            string json = File.ReadAllText(path);
+            SaveData data = JsonUtility.FromJson<SaveData>(json);
+
+            learnedSpellIDList = data.learnedSpellIDs;
+
+            SetSavedSpellsLearned();
+        } else
+        {
+            Debug.Log("Save file not found");
+        }
+    }
+
+    public void SetSavedSpellsLearned ()
+    {
+        GameObject[] allSpells = GameObject.FindGameObjectsWithTag("Spellgem");
+
+        List<GameObject> foundLearned = new List<GameObject>();
+
+        for (int i = 0; i < allSpells.Length; i++)
+        {
+            GameObject currentSpellgem = allSpells[i];
+            currentSpellgem.GetComponent<SpellgemBehavior>().isLearned = false;
+            currentSpellgem.GetComponent<SpellgemBehavior>().learnedToken.SetActive(false);
+            
+
+            int currentID = currentSpellgem.GetComponent<SpellgemBehavior>().id;
+
+            
+            if (learnedSpellIDList.Contains(currentID))
+            {
+
+                foundLearned.Add(allSpells[i]);
+
+            }
+
+        }
+        GameObject.Find("UI Controller").GetComponent<UIController>().ResetStatCounters();
+
+        for (int i = 0; i < foundLearned.Count; i++) {
+            if (!foundLearned[i].GetComponent<SpellgemBehavior>().isLearned)
+            {
+                foundLearned[i].GetComponent<SpellgemBehavior>().requirementMet = true;
+                foundLearned[i].GetComponent<SpellgemBehavior>().SetLearned(true);
+            }
+
+        }
+
+        GameObject.Find("UI Controller").GetComponent<UIController>().UpdateStats();
+
+        if (UIController.spellbookOn == true)
+        {
+            GameObject.Find("UI Controller").GetComponent<UIController>().UpdateSpellbook();
+        }
     }
 
 
@@ -55,12 +147,12 @@ public class GameController : MonoBehaviour
             int tempID = activeSpellgems[i].GetComponent<SpellgemBehavior>().id;
 
             activeSpellgems[i].GetComponent<SpellgemBehavior>().level = GameObject.Find("SpellDatabase").GetComponent<LoadCSV>().spellgemDatabase[tempID].level;
-            activeSpellgems[i].GetComponent<SpellgemBehavior>().name = GameObject.Find("SpellDatabase").GetComponent<LoadCSV>().spellgemDatabase[tempID].name;
+            activeSpellgems[i].GetComponent<SpellgemBehavior>().spellgemName = GameObject.Find("SpellDatabase").GetComponent<LoadCSV>().spellgemDatabase[tempID].name;
             activeSpellgems[i].GetComponent<SpellgemBehavior>().school = GameObject.Find("SpellDatabase").GetComponent<LoadCSV>().spellgemDatabase[tempID].school;
             activeSpellgems[i].GetComponent<SpellgemBehavior>().god = GameObject.Find("SpellDatabase").GetComponent<LoadCSV>().spellgemDatabase[tempID].god;
 
             activeSpellgems[i].GetComponent<SpellgemBehavior>().SetSchoolColor();
-            activeSpellgems[i].name = activeSpellgems[i].GetComponent<SpellgemBehavior>().name;
+            activeSpellgems[i].name = activeSpellgems[i].GetComponent<SpellgemBehavior>().spellgemName;
         }
     }
 

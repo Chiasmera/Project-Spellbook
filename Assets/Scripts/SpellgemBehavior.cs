@@ -9,7 +9,7 @@ public class SpellgemBehavior : MonoBehaviour
     //Fields
     public int id;
     public int level;
-    public string name;
+    public string spellgemName;
     public string school;
     public string god;
     public bool isLearned;
@@ -25,7 +25,7 @@ public class SpellgemBehavior : MonoBehaviour
     [SerializeField] private Sprite TransmutationSprite;
 
     [SerializeField] private GameObject learnedTokenPrefab;
-    [SerializeField] private GameObject learnedToken;
+    [SerializeField] public GameObject learnedToken;
 
     //MouseOver variables
     [SerializeField] private  GameObject mouseOverBox;
@@ -41,7 +41,7 @@ public class SpellgemBehavior : MonoBehaviour
     {
         this.id = id;
         this.level = level;
-        this.name = name;
+        this.spellgemName = name;
         this.school = school;
         this.god = god;
     }
@@ -135,9 +135,10 @@ public class SpellgemBehavior : MonoBehaviour
 
         if (state)
         {
-            UIController.learnedSpellIDs.Add(this.id);
-
-
+            if (!GameController.gamecontrollerInstance.learnedSpellIDList.Contains(this.id))
+            {
+                GameController.gamecontrollerInstance.learnedSpellIDList.Add(this.id);
+            }
 
             if (level ==0)
             {
@@ -167,7 +168,7 @@ public class SpellgemBehavior : MonoBehaviour
 
         } else
         {
-            UIController.learnedSpellIDs.Remove(this.id);
+            GameController.gamecontrollerInstance.learnedSpellIDList.Remove(this.id);
 
             if (level == 0)
             {
@@ -267,7 +268,7 @@ public class SpellgemBehavior : MonoBehaviour
         }
 
         mouseOverBox.transform.position = new Vector3(mousePosX, mousePosY, 0);
-         mouseOverSpellnameText.text = "" + name;
+         mouseOverSpellnameText.text = "" + spellgemName;
         mouseOverLevelText.text = "" + level;
         mouseOverSchoolText.text = "" + school;
     }

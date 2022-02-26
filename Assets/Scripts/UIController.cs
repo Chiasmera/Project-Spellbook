@@ -10,8 +10,6 @@ public class UIController : MonoBehaviour
     public static List<Vector3> viewPositionList = new List<Vector3>();
     public static int currentView = 2;
 
-    //List of all learned spellgems
-    public static List<int> learnedSpellIDs = new List<int>();
     
 
     //variables for statistics
@@ -37,11 +35,7 @@ public class UIController : MonoBehaviour
     [SerializeField] TextMeshProUGUI spellslot6Text;
     [SerializeField] TextMeshProUGUI spellslot7Text;
 
-    //MouseOver variables
-    [SerializeField] public static GameObject mouseOverBox;
-    [SerializeField] public static TextMeshProUGUI mouseOverSpellnameText;
-    [SerializeField] public static TextMeshProUGUI mouseOverLevelText;
-[SerializeField]  public static TextMeshProUGUI mouseOverSchoolText;
+
 
     //Spellbook variables
     public static bool spellbookOn = false;
@@ -275,7 +269,7 @@ public class UIController : MonoBehaviour
 
     public void UpdateStats ()
     {
-        totalSpells = learnedSpellIDs.Count;
+
 
         spellslot1 = (lvl0SpellsLearned / 4) + (lvl1SpellsLearned / 3) + (lvl2SpellsLearned/2) + (lvl3SpellsLearned);
         spellslot2 = (lvl0SpellsLearned / 5) + (lvl1SpellsLearned / 4) + (lvl2SpellsLearned/3) + (lvl3SpellsLearned/2);
@@ -426,36 +420,87 @@ public class UIController : MonoBehaviour
         }
 
         //For each spell in the learned ID list, check their level and create a text object in the corresponding column
-        for (int i = 0; i <= learnedSpellIDs.Count; i++)
+        for (int i = 0; i < GameController.gamecontrollerInstance.learnedSpellIDList.Count; i++)
         {
             
 
-            if (spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[learnedSpellIDs[i]].level == 0)
+            if (spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[GameController.gamecontrollerInstance.learnedSpellIDList[i]].level == 0)
             {
                 GameObject currentSpell;
                 currentSpell = Instantiate(inventorySpellPrefab, lvl0Column.transform);
-                currentSpell.GetComponentInChildren<TextMeshProUGUI>().text = spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[learnedSpellIDs[i]].name;
+                currentSpell.GetComponentInChildren<TextMeshProUGUI>().text = spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[GameController.gamecontrollerInstance.learnedSpellIDList[i]].name;
 
-            } else if (spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[learnedSpellIDs[i]].level == 1)
+            } else if (spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[GameController.gamecontrollerInstance.learnedSpellIDList[i]].level == 1)
             {
                 GameObject currentSpell;
                 currentSpell = Instantiate(inventorySpellPrefab, lvl1Column.transform);
-                currentSpell.GetComponentInChildren<TextMeshProUGUI>().text = spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[learnedSpellIDs[i]].name;
+                currentSpell.GetComponentInChildren<TextMeshProUGUI>().text = spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[GameController.gamecontrollerInstance.learnedSpellIDList[i]].name;
             }
-            else if (spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[learnedSpellIDs[i]].level == 2)
+            else if (spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[GameController.gamecontrollerInstance.learnedSpellIDList[i]].level == 2)
             {
                 GameObject currentSpell;
                 currentSpell = Instantiate(inventorySpellPrefab, lvl2Column.transform);
-                currentSpell.GetComponentInChildren<TextMeshProUGUI>().text = spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[learnedSpellIDs[i]].name;
+                currentSpell.GetComponentInChildren<TextMeshProUGUI>().text = spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[GameController.gamecontrollerInstance.learnedSpellIDList[i]].name;
             }
-            else if (spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[learnedSpellIDs[i]].level == 3)
+            else if (spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[GameController.gamecontrollerInstance.learnedSpellIDList[i]].level == 3)
             {
                 GameObject currentSpell;
                 currentSpell = Instantiate(inventorySpellPrefab, lvl3Column.transform);
-                currentSpell.GetComponentInChildren<TextMeshProUGUI>().text = spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[learnedSpellIDs[i]].name;
+                currentSpell.GetComponentInChildren<TextMeshProUGUI>().text = spellDatabaseObject.GetComponent<LoadCSV>().spellgemDatabase[GameController.gamecontrollerInstance.learnedSpellIDList[i]].name;
             }
             
         }
+    }
+
+    public void ResetStatCounters ()
+    {
+        lvl0SpellsLearned = 0;
+        lvl1SpellsLearned = 0;
+        lvl2SpellsLearned = 0;
+        lvl3SpellsLearned = 0;
+
+        spellslot1 = 0;
+        spellslot2 = 0;
+        spellslot3 = 0;
+        spellslot4 = 0;
+        spellslot5 = 0;
+        spellslot6 = 0;
+        spellslot7 = 0;
+
+        spellslot1Text.text = ""+spellslot1;
+        spellslot2Text.text = "" + spellslot2;
+        spellslot3Text.text = "" + spellslot3;
+        spellslot4Text.text = "" + spellslot4;
+        spellslot5Text.text = "" + spellslot5;
+        spellslot6Text.text = "" + spellslot6;
+        spellslot7Text.text = "" + spellslot7;
+
+        abjurationCount = 0;
+        IllusionCount = 0;
+        ConjurationCount = 0;
+        EnchantmentCount = 0;
+        EvocationCount = 0;
+        DivinationCount = 0;
+        NecromancyCount = 0;
+        TransmutationCount = 0;
+
+abjurationCountText.text = "" + 0;
+IllusionCountText.text = "" + 0;
+ConjurationCountText.text = "" + 0;
+ EnchantmentCountText.text = "" + 0;
+ EvocationCountText.text = "" + 0;
+         DivinationCountText.text = "" + 0;
+    NecromancyCountText.text = "" + 0;
+         TransmutationCountText.text = "" + 0;
+
+    abjurationMasteryText.text = "Amateur";
+ IllusionMasteryText.text = "Amateur";
+   ConjurationMasteryText.text = "Amateur";
+ EnchantmentMasteryText.text = "Amateur";
+        EvocationMasteryText.text = "Amateur";
+        DivinationMasteryText.text = "Amateur";
+       NecromancyMasteryText.text = "Amateur";
+       TransmutationMasteryText.text = "Amateur";
     }
 
 
