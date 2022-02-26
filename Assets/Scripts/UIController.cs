@@ -37,6 +37,12 @@ public class UIController : MonoBehaviour
     [SerializeField] TextMeshProUGUI spellslot6Text;
     [SerializeField] TextMeshProUGUI spellslot7Text;
 
+    //MouseOver variables
+    [SerializeField] public static GameObject mouseOverBox;
+    [SerializeField] public static TextMeshProUGUI mouseOverSpellnameText;
+    [SerializeField] public static TextMeshProUGUI mouseOverLevelText;
+[SerializeField]  public static TextMeshProUGUI mouseOverSchoolText;
+
     //Spellbook variables
     public static bool spellbookOn = false;
     [SerializeField] GameObject statBlockObject;
@@ -61,14 +67,14 @@ public class UIController : MonoBehaviour
     [SerializeField] TextMeshProUGUI currentGod;
 
     //Counters for mastery
-    [SerializeField] private int abjurationCount = 0;
-    [SerializeField] private int IllusionCount = 0;
-    [SerializeField] private int ConjurationCount = 0;
-    [SerializeField] private int EnchantmentCount = 0;
-    [SerializeField] private int EvocationCount = 0;
-    [SerializeField] private int DivinationCount = 0;
-    [SerializeField] private int NecromancyCount = 0;
-    [SerializeField] private int TransmutationCount = 0;
+ private int abjurationCount = 0;
+ private int IllusionCount = 0;
+ private int ConjurationCount = 0;
+ private int EnchantmentCount = 0;
+ private int EvocationCount = 0;
+ private int DivinationCount = 0;
+ private int NecromancyCount = 0;
+ private int TransmutationCount = 0;
 
     [SerializeField] private TextMeshProUGUI abjurationCountText;
     [SerializeField] private TextMeshProUGUI IllusionCountText;
@@ -451,6 +457,8 @@ public class UIController : MonoBehaviour
             
         }
     }
+
+
 
 
 }

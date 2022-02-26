@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class SpellgemBehavior : MonoBehaviour
 {
@@ -26,6 +27,13 @@ public class SpellgemBehavior : MonoBehaviour
     [SerializeField] private GameObject learnedTokenPrefab;
     [SerializeField] private GameObject learnedToken;
 
+    //MouseOver variables
+    [SerializeField] private  GameObject mouseOverBox;
+    [SerializeField] private  TextMeshProUGUI mouseOverSpellnameText;
+    [SerializeField] private  TextMeshProUGUI mouseOverLevelText;
+    [SerializeField] private  TextMeshProUGUI mouseOverSchoolText;
+
+
 
 
     //Constructor
@@ -38,11 +46,24 @@ public class SpellgemBehavior : MonoBehaviour
         this.god = god;
     }
 
+    private void Start()
+    {
+        mouseOverBox = GameObject.Find("MouseoverInfobox");
+        mouseOverSpellnameText = GameObject.Find("MouseoverTitle").GetComponent<TextMeshProUGUI>();
+        mouseOverLevelText = GameObject.Find("MouseoverLevelValue").GetComponent<TextMeshProUGUI>();
+        mouseOverSchoolText = GameObject.Find("MouseoverSchoolValue").GetComponent<TextMeshProUGUI>();
+
+        mouseOverBox.transform.position = new Vector3(2000, 2000, 0);
+    }
 
 
     void Awake()
     {
         SpawnLearnedToken();
+
+
+
+
     }
 
     // Update is called once per frame
@@ -56,6 +77,16 @@ public class SpellgemBehavior : MonoBehaviour
         ToggleLearned();
     }
 
+    private void OnMouseOver()
+    {
+        EnableMouseover();
+
+    }
+
+    private void OnMouseExit()
+    {
+        DisableMouseover();
+    }
 
 
 
@@ -106,6 +137,8 @@ public class SpellgemBehavior : MonoBehaviour
         {
             UIController.learnedSpellIDs.Add(this.id);
 
+
+
             if (level ==0)
             {
                 UIController.lvl0SpellsLearned += 1;
@@ -128,6 +161,8 @@ public class SpellgemBehavior : MonoBehaviour
             {
                 GameObject.Find("UI Controller").GetComponent<UIController>().UpdateSpellbook();
             }
+
+            
 
 
         } else
@@ -161,6 +196,8 @@ public class SpellgemBehavior : MonoBehaviour
 
         }
 
+        SetOthersOFSameID(this.id, state);
+
     }
 
     public void ToggleLearned()
@@ -190,6 +227,55 @@ public class SpellgemBehavior : MonoBehaviour
         learnedToken.SetActive(false);
     }
 
+
+    public void SetOthersOFSameID (int learnedID, bool state)
+    {
+
+            foreach (GameObject spellgem in GameObject.FindGameObjectsWithTag("Spellgem"))
+            {
+                if (spellgem.GetComponent<SpellgemBehavior>().id == learnedID)
+                {
+                spellgem.GetComponent<SpellgemBehavior>().isLearned = state;
+                spellgem.GetComponent<SpellgemBehavior>().learnedToken.SetActive(state);
+            }
+            }
+
+
+    }
+
+    public void EnableMouseover( )
+    {
+        
+        mouseOverBox.SetActive(true);
+        float mousePosX;
+        float mousePosY;
+
+        if (Input.mousePosition.x < 160)
+        {
+            mousePosX = Input.mousePosition.x + 80;
+        } else {
+            mousePosX = Input.mousePosition.x - 80;
+        }
+
+        if (Input.mousePosition.y > 400)
+        {
+            mousePosY = Input.mousePosition.y -60 ;
+        }
+        else
+        {
+            mousePosY = Input.mousePosition.y +60;
+        }
+
+        mouseOverBox.transform.position = new Vector3(mousePosX, mousePosY, 0);
+         mouseOverSpellnameText.text = "" + name;
+        mouseOverLevelText.text = "" + level;
+        mouseOverSchoolText.text = "" + school;
+    }
+
+    public void DisableMouseover()
+    {
+        mouseOverBox.SetActive(false);
+    }
 
 
 
