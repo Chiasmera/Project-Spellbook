@@ -42,3 +42,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 2999873703
+    locked: 0
+  - name: Connector
+    uniqueID: 4050295535
+    locked: 0
+  - name: Gem
+    uniqueID: 1294152407
+    locked: 0
